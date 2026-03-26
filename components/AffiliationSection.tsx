@@ -85,8 +85,8 @@ export function AffiliationSection() {
             <div className="flex items-start justify-between mb-6">
               <h3 className="text-4xl font-bold text-[var(--color-text)]">02</h3>
             </div>
-            <h4 className="text-[30px] w-[320px] font-bold text-[var(--color-text)] mb-3">Ils utilisent Growth</h4>
-            <p className="text-[20px] w-[320px] text-[var(--color-text-light)] mb-6">
+            <h4 className="text-[30px] w-[280px] lg:w-[300px] font-bold text-[var(--color-text)] mb-3">Ils utilisent Growth</h4>
+            <p className="text-[15px] w-[200px] lg:w-[300px] text-[var(--color-text-light)] mb-6">
               Vos contacts utilisent nos outils (Marketing, ventes, relation client automatisées.)
             </p>
 
@@ -107,7 +107,7 @@ export function AffiliationSection() {
                   </div>
                   <div className="flex items-center gap-1">
                     {affiliate.platforms.map((p, i) => (
-                      <Image className='pb-0' key={i} src={p} alt={p} width={18} height={18} />
+                      <Image className='pb-0' key={i} src={p} alt={p} width={12} height={12} />
                     ))}
                   </div>
                 </div>
@@ -121,7 +121,7 @@ export function AffiliationSection() {
 
             {/* Content */}
             <div className="space-y-4  border-black border-2 rounded-2xl pb-23 p-4">
-              <div className="rounded-2xl mx-auto w-[230px] border border-[var(--color-border)] bg-white px-4 py-3 flex items-center gap-3">
+              <div className="rounded-2xl mx-auto w-[130px] lg:w-[230px] border border-[var(--color-border)] bg-white px-4 py-3 flex items-center gap-3">
                 <div className="w-10 h-10 rounded-full bg-[#BBFFCC] flex items-center justify-center text-[#008A4B] text-xl font-bold">$</div>
                 <div>
                   <p className="text-xs font-medium text-black">Commission reçue</p>
@@ -130,7 +130,7 @@ export function AffiliationSection() {
               </div>
               <div className="rounded-2xl border border-[var(--color-border)] bg-white p-4">
                 <p className="text-xs text-black mb-1">Total commissions (ce mois)</p>
-                <p className="text-4xl font-black text-black">2 840,50 €</p>
+                <p className="text-3xl font-black text-black">2 840,50 €</p>
               </div>
             </div>
 

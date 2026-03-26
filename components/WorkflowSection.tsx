@@ -6,13 +6,13 @@ export function WorkflowSection() {
   return (
     <section className="w-full py-25">
       <div className="max-w-7xl mx-auto px-6">
-        <div className="text-center mb-12">
-          <div className="mx-auto text-center w-[590px]">
+        <div className="text-center mb-12 w-[300px] md:w-[600px] sm:w-[600px] mx-auto">
+          <div className="mx-auto text-center">
             <h2 className="text-3xl md:text-4xl font-bold text-[var(--color-text)]">
             Comment Growth s’adapte à votre façon de travailler
           </h2>
           </div>
-          <div className='mx-auto w-[575px] text-center'>
+          <div className='mx-auto text-center'>
             <p className="mt-4 text-lg md:text-xl text-[var(--color-text-light)] max-w-3xl ">
             Chez Growth, vous choisissez votre niveau d’implication. Gérez tout vous-même ou déléguez l’exécution à notre équipe.
           </p>
