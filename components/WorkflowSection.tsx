@@ -1,0 +1,74 @@
+'use client';
+
+import { Sliders, Users, Bolt } from 'lucide-react';
+
+export function WorkflowSection() {
+  return (
+    <section className="w-full py-25">
+      <div className="max-w-7xl mx-auto px-6">
+        <div className="text-center mb-12">
+          <div className="mx-auto text-center w-[600px]">
+            <h2 className="text-3xl md:text-4xl font-bold text-[var(--color-text)]">
+            Comment Growth s’adapte à votre façon de travailler
+          </h2>
+          </div>
+          <div className='mx-auto w-[600]'>
+            <p className="mt-4 text-lg md:text-xl text-[var(--color-text-light)] max-w-3xl mx-auto">
+            Chez Growth, vous choisissez votre niveau d’implication. Gérez tout vous-même ou déléguez l’exécution à notre équipe.
+          </p>
+          </div>
+        </div>
+
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 mb-10">
+          <article className="rounded-2xl bg-[var(--color-card-bg)] border border-[var(--color-border)] p-8 shadow-sm">
+            <div className="flex justify-between gap-4 mb-4">
+              <div className="w-11 h-11 rounded-xl bg-[#FF9800] flex items-center justify-center text-white">
+                <Sliders size={20} />
+              </div>
+              <span className="px-2 h-[26px] px-1.5 rounded-full bg-[#FF8A00] text-white flex items-center justify-center text-[12px] leading-[20px] font-normal hover:bg-[#C96B00] active:bg-[#944F00] transition">
+                Autonome
+              </span>
+            </div>
+            <h3 className="text-2xl font-bold text-[var(--color-text)] mb-3">Self-service</h3>
+            <p className="text-base text-[var(--color-text-light)] mb-4">
+              Vous gérez vos campagnes et automatisations en toute autonomie.
+            </p>
+            <ul className="space-y-2 text-[var(--color-text-light)]">
+              <li className="flex items-center gap-2"><Bolt size={16} className="text-[#FF9800]" /> Accès direct aux outils</li>
+              <li className="flex items-center gap-2"><Bolt size={16} className="text-[#FF9800]" /> Interface simple et intuitive</li>
+              <li className="flex items-center gap-2"><Bolt size={16} className="text-[#FF9800]" /> Contrôle total de vos actions</li>
+              <li className="flex items-center gap-2"><Bolt size={16} className="text-[#FF9800]" /> Idéal pour équipes internes ou profils techniques</li>
+            </ul>
+          </article>
+
+          <article className="rounded-2xl bg-[var(--color-card-bg)] border border-[var(--color-border)] p-8 shadow-sm">
+            <div className="flex justify-between gap-4 mb-4">
+              <div className="w-11 h-11 rounded-xl bg-[#FF9800] flex items-center justify-center text-white">
+                <Users size={20} />
+              </div>
+              <span className="h-[26px] px-1.5 rounded-full bg-white text-[#FF8A00] border border-[#FF8A00] flex items-center justify-center text-[12px] leading-[20px] font-medium hover:bg-[#FFDCB4] active:bg-[#FFB25A] transition">
+                Délégation complète
+              </span>
+            </div>
+            <h3 className="text-2xl font-bold text-[var(--color-text)] mb-3">Service managé</h3>
+            <p className="text-base text-[var(--color-text-light)] mb-4">
+              Vous déléguez l’exécution à l’équipe Growth.
+            </p>
+            <ul className="space-y-2 text-[var(--color-text-light)]">
+              <li className="flex items-center gap-2"><Bolt size={16} className="text-[#FF9800]" /> Stratégie, création et exécution prises en charge</li>
+              <li className="flex items-center gap-2"><Bolt size={16} className="text-[#FF9800]" /> Gain de temps maximal</li>
+              <li className="flex items-center gap-2"><Bolt size={16} className="text-[#FF9800]" /> Expertise humaine + IA</li>
+              <li className="flex items-center gap-2"><Bolt size={16} className="text-[#FF9800]" /> Idéal si vous manquez de temps ou de ressources</li>
+            </ul>
+          </article>
+        </div>
+
+        <div className="text-center">
+          <button className="px-8 py-4 rounded-full bg-[var(--color-primary)] text-white font-bold shadow transition hover:brightness-110">
+            Choisir mon mode d'utilisation →
+          </button>
+        </div>
+      </div>
+    </section>
+  );
+}
