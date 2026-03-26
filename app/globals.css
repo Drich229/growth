@@ -1,5 +1,8 @@
 @import "tailwindcss";
 
+body {
+  font-family: 'Sora', sans-serif;
+}
 /* Light mode (default) */
 :root {
   --color-primary: #FF8A00FF;
@@ -12,6 +15,22 @@
   --color-card-bg: #ffffff;
   --color-inp-bg :#f3f1f1;
   --color-input-bg: rgb(243, 243, 243);
+  --color-neutral-text : #171A1FFF;
+  --icon-kloo-bg: #EEF1F9;
+  --icon-wachap-bg: #E6F7E6;
+  --icon-aginap-bg: #F9EACB;
+  --icon-typebot-bg: #E0E0E0;
+  --social-messenger-bg: #ADD8E6;
+  --social-messenger-icon-bg: #CBE2F9;
+
+  --social-instagram-bg: #FFB6D9;
+  --social-instagram-icon-bg: #F9B7C8;
+
+  --social-whatsapp-bg: #90EE90;
+  --social-whatsapp-icon-bg: #BFF9B7;
+
+  --social-facebook-bg: #0B7FFF;
+  --social-facebook-icon-bg: #4F71F9;
 }
 
 /* Dark mode */
@@ -26,7 +45,23 @@ html.dark {
   --color-card-bg: #1a1a1a;
   --color-input-bg: #e9e6e6;
   --color-inp-bg : #27272AFF;
-;
+   --color-neutral-text : rgb(167, 167, 170);
+   --icon-kloo-bg: #1E293B;
+  --icon-wachap-bg: #14532D;
+  --icon-aginap-bg: #78350F;
+  --icon-typebot-bg: #3F3F46;
+   --social-messenger-bg: #1E3A5F;
+  --social-messenger-icon-bg: #334155;
+
+  --social-instagram-bg: #5B2140;
+  --social-instagram-icon-bg: #7C2D4F;
+
+  --social-whatsapp-bg: #14532D;
+  --social-whatsapp-icon-bg: #166534;
+
+  --social-facebook-bg: #1E40AF;
+  --social-facebook-icon-bg: #1D4ED8;
+
 }
 
 /* Dark mode via système */
@@ -42,6 +77,22 @@ html.dark {
     --color-card-bg: #1a1a1a;
     --color-input-bg: #666666;
     --color-input-bg: #e9e6e6;
+    --color-neutral-text : rgb(167, 167, 170);
+    --icon-kloo-bg: #1E293B;
+    --icon-wachap-bg: #14532D;
+    --icon-aginap-bg: #78350F;
+    --icon-typebot-bg: #3F3F46;
+   --social-messenger-bg: #1E3A5F;
+  --social-messenger-icon-bg: #334155;
+
+  --social-instagram-bg: #5B2140;
+  --social-instagram-icon-bg: #7C2D4F;
+
+  --social-whatsapp-bg: #14532D;
+  --social-whatsapp-icon-bg: #166534;
+
+  --social-facebook-bg: #1E40AF;
+  --social-facebook-icon-bg: #1D4ED8;
   }
 }
 

@@ -9,7 +9,7 @@ export function Hero() {
         <span className="text-[var(--color-text)]">sans embaucher 10 personnes</span>
       </h1>
       
-      <p className="text-lg text-[var(--color-text-light)] max-w-2xl mx-auto mb-10">
+      <p className="text-lg text-[var(--color-neutral-text)] max-w-2xl mx-auto mb-10">
         Maximisez votre chiffre d'affaires avec des outils dotés d'intelligence artificielle, qui automatisent l'acquisition, les ventes et la gestion de la relation client pour une croissance sans effort.
       </p>
 

@@ -23,7 +23,7 @@ export function InputSection() {
   return (
     <section className="max-w-7xl mx-auto px-6 pt-8 pb-20">
       {/* Main Container */}
-      <div className="relative bg-[var(--color-card-bg)] border border-[#DEE1E6] dark:border-[#333333] rounded-[16px] w-full h-[206px] shadow-[0px_0px_1px_rgba(23,26,31,0.07),0px_0px_2px_rgba(23,26,31,0.12)]">
+      <div className="relative bg-[var(--color-card-bg)] dark:border-[#333333] rounded-[16px] w-full h-[206px] shadow-[0px_0px_1px_rgba(23,26,31,0.07),0px_0px_2px_rgba(23,26,31,0.12)]">
         
         {/* Textarea Container */}
         <div className="absolute top-[21px] left-[17px] w-[calc(100%-34px)] h-[164px] bg-[var(--color-inp-bg)] rounded-[16px] flex flex-col p-4 relative">
@@ -50,29 +50,29 @@ export function InputSection() {
         </div>
 
         {/* Categories Container */}
-        <div className="absolute top-[121px] left-[19px] w-[614px] h-[47px] ml-2 bg-[var(--color-card-bg)] rounded-[14px] shadow-[0px_0px_1px_rgba(23,26,31,0.07),0px_0px_2px_rgba(23,26,31,0.12)] flex items-center px-4 gap-2 overflow-x-auto">
-          {categories.map(cat => {
+        <div className="absolute top-[121px] left-2 right-0 w-2xl sm:left-2 xs:w-[400px] sm:max-w-[600px] md:max-w-[700px] h-[47px] bg-[var(--color-card-bg)] rounded-[14px] shadow-[0px_0px_1px_rgba(23,26,31,0.07),0px_0px_2px_rgba(23,26,31,0.12)] flex items-center px-4 gap-2 overflow-x-auto md:w-[calc(100%-2rem)] md:mx-4">
+        {categories.map(cat => {
             const IconComponent = cat.icon;
             const isSelected = selectedCategories.includes(cat.id);
-            
+
             return (
-              <button
+            <button
                 key={cat.id}
                 onClick={() => toggleCategory(cat.id)}
-                className={`flex items-center gap-2 px-3 py-1.5 rounded-full transition-all text-xs font-bold whitespace-nowrap ${
-                  isSelected
+                className={`flex items-center gap-2 px-3 py-1.5 rounded-full transition-all text-xs font-bold whitespace-nowrap flex-shrink-0 ${
+                isSelected
                     ? 'bg-[#2D3748] dark:bg-[#4A5568] text-white'
                     : 'bg-transparent text-[var(--color-text)] hover:opacity-80'
                 }`}
-              >
-                <IconComponent 
-                  size={16} 
-                  style={{ color: cat.color, opacity: isSelected ? 1 : 0.6 }}
+            >
+                <IconComponent
+                size={16}
+                style={{ color: cat.color, opacity: isSelected ? 1 : 0.6 }}
                 />
                 <span>{cat.label}</span>
-              </button>
+            </button>
             );
-          })}
+        })}
         </div>
       </div>
     </section>

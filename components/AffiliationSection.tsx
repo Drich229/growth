@@ -54,7 +54,7 @@ export function AffiliationSection() {
           {/* Step 1 */}
           <div className="rounded-3xl bg-[var(--color-card-bg)] border-2 border-[var(--color-border)] p-8 flex flex-col h-full">
             {/* Header */}
-            <div className= 'border-black border-2 rounded-2xl p-4 mb-6'>
+            <div className= 'border-black bg-white border-2 rounded-2xl p-4 mb-6'>
                 <div className="pb-6 border-b-2 border-[var(--color-border)] mb-6">
                     <p className="text-xl font-bold text-[#003366] tracking-widest uppercase">Growth Affiliation</p>
                 </div>
@@ -92,8 +92,8 @@ export function AffiliationSection() {
 
             <div className="rounded-xl border border-[var(--color-border)] bg-white p-4 mb-4">
               <div className="flex items-center justify-between mb-2">
-                <span className="text-sm font-bold text-[var(--color-text)]">Mes affiliés</span>
-                <span className="text-xs font-medium text-[var(--color-text-light)]">Services utilisés</span>
+                <span className="text-sm font-bold text-black">Mes affiliés</span>
+                <span className="text-xs font-medium text-black">Services utilisés</span>
               </div>
               <div className="h-px bg-[var(--color-border)] mb-3" />
               {affiliates.slice(0, 4).map((affiliate, index) => (
@@ -101,8 +101,8 @@ export function AffiliationSection() {
                   <div className="flex items-center gap-3">
                     <span className="w-8 h-8 rounded-full bg-[#10B981] flex items-center justify-center text-white font-bold">{affiliate.name.charAt(0)}</span>
                     <div>
-                      <p className="text-sm font-semibold text-[var(--color-text)]">{affiliate.name}</p>
-                      <p className="text-xs text-[var(--color-text-light)]">{affiliate.date}</p>
+                      <p className="text-sm font-semibold text-black">{affiliate.name}</p>
+                      <p className="text-xs text-black">{affiliate.date}</p>
                     </div>
                   </div>
                   <div className="flex items-center gap-1">
@@ -124,13 +124,13 @@ export function AffiliationSection() {
               <div className="rounded-2xl mx-auto w-[230px] border border-[var(--color-border)] bg-white px-4 py-3 flex items-center gap-3">
                 <div className="w-10 h-10 rounded-full bg-[#BBFFCC] flex items-center justify-center text-[#008A4B] text-xl font-bold">$</div>
                 <div>
-                  <p className="text-xs font-medium text-[#6B7280]">Commission reçue</p>
-                  <p className="text-2xl font-bold text-[var(--color-text)]">+ 150.00 €</p>
+                  <p className="text-xs font-medium text-black">Commission reçue</p>
+                  <p className="text-2xl font-bold text-black">+ 150.00 €</p>
                 </div>
               </div>
               <div className="rounded-2xl border border-[var(--color-border)] bg-white p-4">
-                <p className="text-xs text-[var(--color-text-light)] mb-1">Total commissions (ce mois)</p>
-                <p className="text-4xl font-black text-[var(--color-text)]">2 840,50 €</p>
+                <p className="text-xs text-black mb-1">Total commissions (ce mois)</p>
+                <p className="text-4xl font-black text-black">2 840,50 €</p>
               </div>
             </div>
 

@@ -39,7 +39,7 @@ export function FaqSection() {
           {faqItems.map((item, index) => {
             const isOpen = openIndex === index;
             return (
-              <div key={item.question} className="rounded-2xl bg-[var(--color-input-bg)] border border-[var(--color-border)] overflow-hidden">
+              <div key={item.question} className="rounded-2xl bg-[var(--color-card-bg)] border border-[var(--color-border)] overflow-hidden">
                 <button
                   onClick={() => setOpenIndex(isOpen ? null : index)}
                   className="w-full text-left px-6 py-5 flex items-center justify-between gap-4"
