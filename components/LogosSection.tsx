@@ -9,7 +9,6 @@ export function LogosSection() {
     { id: 3, image: '/visily-image (2).png' },
     { id: 4, image: '/visily-image.png' },
     { id: 5, image: '/visily-image (2).png' },
-    { id: 6, image: '/visily-image (2).png' },
   ];
 
   return (
