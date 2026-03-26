@@ -74,7 +74,7 @@ export function SocialMediaSection() {
 
                 {/* Right */}
                 <div
-                  className="flex items-center justify-center w-56 h-full flex-shrink-0"
+                  className="flex items-center justify-center w-20 sm:w-20 md:w-20 lg:w-50 h-full flex-shrink-0"
                   style={{
                     backgroundColor: social.bg,
                     borderRadius: '0 2rem 0 0'
