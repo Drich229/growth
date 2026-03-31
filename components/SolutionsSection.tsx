@@ -35,7 +35,7 @@ const solutions = [
 
 export function SolutionsSection() {
   return (
-    <section className="w-full py-16">
+    <section className="w-full py-16 bg-[var(--color-bg-secondary)]">
       <div className="max-w-7xl mx-auto px-6">
 
         {/* Header */}

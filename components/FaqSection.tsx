@@ -28,7 +28,7 @@ export function FaqSection() {
   const [openIndex, setOpenIndex] = useState<number | null>(0);
 
   return (
-    <section className="w-full py-16">
+    <section className="w-full py-16 bg-[var(--color-bg-secondary)]">
       <div className="max-w-7xl mx-auto px-6">
         <div className="text-center mb-10">
           <h2 className="text-3xl md:text-4xl font-bold text-[var(--color-text)]">Questions fréquemment posées</h2>

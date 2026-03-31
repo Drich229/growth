@@ -4,7 +4,7 @@ import { Sliders, Users, Bolt } from 'lucide-react';
 
 export function WorkflowSection() {
   return (
-    <section className="w-full py-25">
+    <section className="w-full bg-[var(--color-bg-secondary)] py-25">
       <div className="max-w-7xl mx-auto px-6">
         <div className="text-center mb-12 w-[300px] md:w-[600px] sm:w-[600px] mx-auto">
           <div className="mx-auto text-center">
