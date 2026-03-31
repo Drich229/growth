@@ -23,7 +23,7 @@ export function InputSection() {
   };
 
   return (
-    <section className="max-w-7xl mx-auto px-6 pt-8 pb-20">
+    <section className="max-w-7xl mx-auto px-6 pt-8 pb-20 bg-[var(--color-bg-secondary)]">
       {/* Main Container */}
       <div className="bg-[var(--color-card-bg)] p-4 rounded-[16px] w-full h-[206px] shadow-sm">
         
