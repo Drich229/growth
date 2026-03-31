@@ -2,7 +2,7 @@
 
 export function Hero() {
   return (
-    <section className="max-w-7xl bg-[var(--color-secondary)] mx-auto px-6 py-10 text-center">
+    <section className="max-w-7xl bg-[var(--color-bg-secondary)] mx-auto px-6 py-10 text-center">
       <h1 className="text-5xl md:text-6xl font-bold mb-6">
         <span className="text-[var(--color-primary)]">Accélérez votre croissance</span>
         {' '}

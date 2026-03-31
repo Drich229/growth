@@ -2,7 +2,7 @@ import { Camera } from 'lucide-react';
 
 const BoostSection = () => {
   return (
-    <section className="relative mt-[110px] bg-[var(--color-primary)] text-white py-25 px-4 sm:px-6 lg:px-8">
+    <section className="relative mt-[110px] bg-[var(--color-bg-secondary)] text-white py-25 px-4 sm:px-6 lg:px-8">
       {/* Star Decoration */}
       <div className="absolute top-4 left-4 w-12 h-12">
         <svg viewBox="0 0 24 24" fill="white">
