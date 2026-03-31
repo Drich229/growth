@@ -12,7 +12,7 @@ export function LogosSection() {
   ];
 
   return (
-    <section className="w-full mx-auto px-6 py-16">
+    <section className="w-full mx-auto px-6 py-16 bg-[var(--color-bg-secondary)]">
       <div className="flex items-center justify-center gap-8 flex-wrap">
         {logos.map(logo => (
           <div

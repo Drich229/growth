@@ -13,7 +13,7 @@ import Footer from '@/components/Footer';
 
 export default function Home() {
   return (
-    <main className="w-full pt-20">
+    <main className="w-full pt-20 bg-[var(--color-bg-secondary)]">
       <Header />
       <Hero />
       <InputSection />

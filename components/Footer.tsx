@@ -13,7 +13,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* Logo */}
           <div>
-            <h3 className="text-2xl font-bold text-[(--color-text)]">GROWTH</h3>
+            <h3 className="text-2xl font-bold text-[var(--color-text)]">GROWTH</h3>
 
              {/* Réseaux Sociaux */}
         <div className="mt-8 flex space-x-4">
