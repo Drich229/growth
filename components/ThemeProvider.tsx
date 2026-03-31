@@ -50,16 +50,16 @@ export function ThemeToggle() {
   return (
     <button
       onClick={toggleTheme}
-      className="flex items-center gap-1 bg-[#e8e8e8] dark:bg-[#2a2a2a] rounded-[12px] px- py-2 transition-colors hover:opacity-80"
+      className="flex items-center gap-1 bg-[var(--color-bg-secondary)] rounded-[12px] p-2 transition-colors hover:opacity-80"
       aria-label="Toggle theme"
     >
       <div className={`flex items-center justify-center w-6 h-6 rounded-full transition-all ${
-        isDark ? 'bg-transparent' : 'bg-white'
+        isDark ? 'bg-[#1a1a1a]' : 'bg-white'
       }`}>
         <Moon size={16} className={`${isDark ? 'text-[#666666]' : 'text-black'}`} />
       </div>
       <div className={`flex items-center justify-center w-6 h-6 rounded-full transition-all ${
-        isDark ? 'bg-[#1a1a1a]' : 'bg-transparent'
+        isDark ? 'bg-[#1a1a1a]' : 'bg-white'
       }`}>
         <Sun size={16} className={`${isDark ? 'text-[#ff9d00]' : 'text-[#ff9d00]'}`} />
       </div>
