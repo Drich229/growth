@@ -64,7 +64,7 @@ html.dark {
 
 }
 
-/* Dark mode via système */
+/* Dark mode via système 
 @media (prefers-color-scheme: dark) {
   :root {
     --color-primary: #ff9d00;
@@ -94,7 +94,7 @@ html.dark {
   --social-facebook-bg: #1E40AF;
   --social-facebook-icon-bg: #1D4ED8;
   }
-}
+}*/
 
 html {
   color-scheme: light;

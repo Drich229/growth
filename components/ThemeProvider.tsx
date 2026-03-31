@@ -30,9 +30,9 @@ export function ThemeProvider({ children }: { children: React.ReactNode }) {
 export function ThemeToggle() {
   const [isDark, setIsDark] = useState(false);
 
-  useEffect(() => {
+  /*useEffect(() => {
     setIsDark(document.documentElement.classList.contains('dark'));
-  }, []);
+  }, []);*/
 
   const toggleTheme = () => {
     const newIsDark = !isDark;
