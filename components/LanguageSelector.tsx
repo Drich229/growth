@@ -21,7 +21,7 @@ export function LanguageSelector() {
     <div className="relative">
       <button
         onClick={() => setIsOpen(!isOpen)}
-        className="flex items-center gap-3 px-4 py-2 rounded-lg border border-[var(--color-border)] text-[var(--color-text)] hover:border-[var(--color-text-light)] transition-colors"
+        className="flex items-center gap-3 px-4 py-2 text-[var(--color-text)]  transition-colors"
       >
         <Globe size={20} />
         <span className="text-sm font-medium">{language}</span>
@@ -29,7 +29,7 @@ export function LanguageSelector() {
       </button>
 
       {isOpen && (
-        <div className="absolute top-full right-0 mt-2 w-40 bg-[var(--color-card-bg)] border border-[var(--color-border)] rounded-lg shadow-lg z-50">
+        <div className="absolute top-full right-0 mt-2 w-40 bg-[var(--color-card-bg)] shadow-lg z-50">
           {languages.map((lang) => (
             <button
               key={lang.code}

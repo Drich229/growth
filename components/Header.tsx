@@ -12,7 +12,7 @@ export function Header() {
   return (
     <header className="w-full border-b border-[var(--color-border)] bg-[var(--color-bg)] fixed top-0 left-0 right-0 z-50">
       <nav className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
-        <div className="text-2xl font-bold text-[var(--color-text)]">GROWTH</div>
+        <div className="text-[20px] font-bold text-[var(--color-text)]">GROWTH</div>
 
         {/* Desktop Menu */}
         <div className="hidden lg:flex items-center gap-12">
@@ -32,10 +32,10 @@ export function Header() {
 
         <div className="hidden lg:flex items-center gap-6">
           <LanguageSelector />
-          <ThemeToggle />
           <button className="px-6 py-2 bg-[var(--color-primary)] text-white font-semibold rounded-[12px] hover:bg-[var(--color-primary-dark)] transition-colors text-sm">
             Découvrir nos offres →
           </button>
+          <ThemeToggle />
         </div>
 
         {/* Mobile Menu Button */}
