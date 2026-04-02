@@ -43,7 +43,7 @@ export function AffiliationSection() {
           <div className="bg-[var(--color-bg-small)] h-[28px] p-1 rounded-[10px] w-[140px] items-center justify-center mx-auto mb-6">
             <p className="text-sm text-[var(--color-primary)] mb-3">Growth affiliation</p>
           </div>
-          <h2 className="text-[48px] font-bold text-[var(--color-text)] mb-4">
+          <h2 className="lg:text-[48px] text-3xl font-bold text-[var(--color-text)] mb-4">
             Recommandez Growth.<br />Gagnez à chaque client apporté.
           </h2>
           <p className="text-[20px] font-semibold text-[var(--color-text-light)] max-w-2xl mx-auto">
