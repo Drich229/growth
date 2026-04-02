@@ -1,20 +1,23 @@
 import { Camera } from 'lucide-react';
+import Image from 'next/image';
 
 const BoostSection = () => {
   return (
     <section className="relative mt-[110px] bg-[var(--color-primary)] text-white py-25 px-4 sm:px-6 lg:px-8">
       {/* Star Decoration */}
-      <div className="absolute top-4 left-4 w-12 h-12">
-        <svg viewBox="0 0 24 24" fill="white">
-          <path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2L9.19 8.63l-7.19.61L5.46 14l-1.64 7.03L12 17.27z" />
-        </svg>
+      <div>
+        <Image src="/star2.png" alt="Star Decoration" style={{ position: "absolute", 
+        top: '23px', 
+        left: '29px', 
+        borderRadius: '0px', 
+        transform: 'rotate(345.69deg)'}} width={61} height={60}/>
       </div>
 
       {/* Star Decoration - Right */}
-      <div className="absolute bottom-0 right-4 w-48 h-48 opacity-30">
-        <svg viewBox="0 0 24 24" fill="white">
-          <path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2L9.19 8.63l-7.19.61L5.46 14l-1.64 7.03L12 17.27z" />
-        </svg>
+      <div>
+        <Image src="/star.png" alt="Star Decoration" className="lg:top-[190px] lg:w-[350px] lg:h-[400px] lg:left-[1300px] top-[350px] left-[450px]" style={{  position: 'absolute',
+          borderRadius: '0px',
+          transform: 'rotate(8.32deg)' }} width={160} height={200}/>
       </div>
 
       {/* Content */}

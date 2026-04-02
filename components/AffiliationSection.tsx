@@ -148,7 +148,7 @@ export function AffiliationSection() {
         </div>
 
         {/* CTA Button */}
-        <div className="text-center mx-auto mt-[80px] w-[417px]">
+        <div className="text-center mx-auto mt-[80px] lg:w-[417px]">
           <button className="px-8 py-4 rounded-[16px] bg-[var(--color-primary)] text-white font-bold shadow transition hover:brightness-110">
             Découvrir le programme d'affiliation →
           </button>

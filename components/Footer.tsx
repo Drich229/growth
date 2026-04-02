@@ -34,7 +34,7 @@ const Footer = () => {
 
           {/* Liens utiles */}
           <div>
-            <h4 className="text-lg font-semibold mb-4 text-[var(--color-text)]">Liens utiles</h4>
+            <h4 className="text-lg font-bold mb-4 text-[var(--color-text)]">Liens utiles</h4>
             <ul className="space-y-2">
               <li>
                 <a href="#" className="text-[var(--color-text)] hover:text-[(--color-primary)]">
@@ -56,7 +56,7 @@ const Footer = () => {
 
           {/* Ressources */}
           <div>
-            <h4 className="text-lg font-semibold mb-4 text-[var(--color-text)]">Ressources</h4>
+            <h4 className="text-lg font-bold mb-4 text-[var(--color-text)]">Ressources</h4>
             <ul className="space-y-2">
               <li>
                 <a href="#" className="text-[var(--color-text)] hover:text-[(--color-primary)]">
@@ -73,7 +73,7 @@ const Footer = () => {
 
           {/* Légal */}
           <div>
-            <h4 className="text-lg font-semibold mb-4 text-[var(--color-text)]">Légal</h4>
+            <h4 className="text-lg font-bold mb-4 text-[var(--color-text)]">Légal</h4>
             <ul className="space-y-2">
               <li>
                 <a href="#" className="text-[var(--color-text)] hover:text-[(--color-primary)]">
@@ -92,7 +92,7 @@ const Footer = () => {
        
 
         {/* Copyright */}
-        <div className="mt-8 pt-8 border-t border-[(--color-border)] text-center text-[var(--color-text)]">
+        <div className="mt-8 pt-8 border-t border-[var(--color-border)] text-center text-[var(--color-text)]">
           <p>© 2026 - Growth. Tous droits réservés.</p>
         </div>
       </div>
