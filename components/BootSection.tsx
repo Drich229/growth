@@ -26,15 +26,15 @@ const BoostSection = () => {
           <div>
             <a
             href="#offres"
-            className="bg-white text-[var(--color-primary)] font-semibold py-3 px-6 rounded-[16px] hover:bg-gray-100 transition duration-300"
+            className="bg-white w-[337px] h-[50px] text-[var(--color-primary)] font-semibold py-3 px-6 rounded-[16px] hover:bg-gray-100 transition duration-300"
           >
             Découvrir nos offres →
           </a>
           </div>
-          <div className='pt-10'>
+          <div className='pt-10 mb-2'>
             <a
             href="#rdv"
-            className="bg-transparent border-2 border-white text-white font-semibold py-3 px-6 rounded-[16px] hover:bg-white hover:text-orange-500 transition duration-300 flex items-center gap-2"
+            className="bg-transparent w-[346px] h-[45px] border-2 border-white text-white font-semibold py-3 px-6 rounded-[16px] hover:bg-white hover:text-orange-500 transition duration-300 flex items-center gap-2"
           >
             <Camera className="w-5 h-5" />
             Prendre rendez-vous gratuit

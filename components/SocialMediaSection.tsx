@@ -43,11 +43,11 @@ const socialMedias = [
 
 export function SocialMediaSection() {
   return (
-    <section className="w-full bg-[var(--color-bg-secondary)] py-20">
+    <section className="border-b border-[var(--color-border)] pb-[90px] w-full bg-[var(--color-bg-secondary)] mt-[110px]">
       <div className="max-w-7xl mx-auto px-6">
 
         {/* Header */}
-        <h2 className="text-3xl md:text-4xl font-bold text-[var(--color-text)] text-center mb-12">
+        <h2 className="text-[48px] font-bold text-[var(--color-text)] text-center mb-[80px]">
           Présent là où vos clients sont
         </h2>
 
@@ -56,33 +56,35 @@ export function SocialMediaSection() {
           {socialMedias.map((social) => (
             <div
               key={social.id}
-              className="flex flex-col p-8 rounded-2xl bg-[var(--color-card-bg)] shadow-md hover:shadow-xl transition-all duration-300"
+              className="flex flex-col p-0 h-[480px] lg:h-[297px] rounded-[16px] bg-[var(--color-bg-media)] transition-all duration-300"
             >
-              
+      
               {/* Top */}
-              <div className="flex items-stretch gap-8 mb-8 border-b border-[var(--color-border)]">
+              <div className="lg:flex w-full items-stretch gap-8 mb-3 border-b border-[var(--color-border)]">
                 
                 {/* Left */}
-                <div className="flex-1 flex flex-col justify-center py-8">
-                  <p className="text-sm font-semibold text-[var(--color-text-light)] tracking-widest uppercase mb-3">
+                <div className="flex-1 flex h-[184px] p-6 flex-col justify-center">
+                  <p className="text-[12px] pb-4 font-semibold text-[var(--color-text-light)] tracking-widest uppercase mb-3">
                     {social.name}
                   </p>
-                  <p className="text-2xl font-bold text-[var(--color-text)] leading-tight">
+                  <p style={{ height: '95px',
+                        fontSize: '24px', 
+                        lineHeight: '40px',
+                     }} className="w-[500px] md:w-[350px] lg:w-[297px] text-[var(--color-text)] font-semibold leading-tight">
                     {social.description}
                   </p>
                 </div>
 
                 {/* Right */}
                 <div
-                  className="flex items-center justify-center w-12 sm:w-12 md:w-20 lg:w-50 h-full flex-shrink-0"
+                  className="flex w-full lg:rounded-tr-[16px] items-center justify-center lg:w-50 h-[184px] flex-shrink-0"
                   style={{
                     backgroundColor: social.bg,
-                    borderRadius: '0 2rem 0 0'
                   }}
                 >
                   
                   <div
-                    className="flex items-center justify-center p-4 rounded-full"
+                    className="flex items-center justify-center p-4 rounded-[16px]"
                   >
                     <Image
                       src={social.icon}
@@ -96,7 +98,7 @@ export function SocialMediaSection() {
               </div>
 
               {/* Bottom */}
-              <p className="text-base text-[var(--color-text-light)] leading-relaxed">
+              <p className="p-6 text-base text-[var(--color-text-light)] leading-relaxed">
                 {social.content}
               </p>
             </div>

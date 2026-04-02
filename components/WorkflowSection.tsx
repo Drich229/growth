@@ -1,19 +1,22 @@
 'use client';
 
-import { Sliders, Users, Bolt } from 'lucide-react';
+import { Sliders, Users, Bolt, Zap, CheckCircle } from 'lucide-react';
 
 export function WorkflowSection() {
   return (
-    <section className="w-full bg-[var(--color-bg-secondary)] py-25">
+    <section className="w-full bg-[var(--color-bg-secondary)] py-[100px]">
       <div className="max-w-7xl mx-auto px-6">
-        <div className="text-center mb-12 w-[300px] md:w-[600px] sm:w-[600px] mx-auto">
+        <div className="text-center lg:mr-95 mb-12 w-[300px] md:w-[600px] sm:w-[600px] mx-auto">
           <div className="mx-auto text-center">
-            <h2 className="text-3xl md:text-4xl font-bold text-[var(--color-text)]">
+            <h2 style={{fontSize: '48px',
+              lineHeight: '62px', }} className="lg:w-[728px] font-bold text-[var(--color-text)]">
             Comment Growth s’adapte à votre façon de travailler
           </h2>
           </div>
           <div className='mx-auto text-center'>
-            <p className="mt-4 text-lg md:text-xl text-[var(--color-text-light)] max-w-3xl ">
+            <p style = {{
+              fontSize: '20px',
+              lineHeight: '29px',}} className="lg:ml-10 lg:h-[58px] mt-4 lg:w-[661px] font-semibold md:text-xl text-[var(--color-text-light)] ">
             Chez Growth, vous choisissez votre niveau d’implication. Gérez tout vous-même ou déléguez l’exécution à notre équipe.
           </p>
           </div>
@@ -30,14 +33,14 @@ export function WorkflowSection() {
               </span>
             </div>
             <h3 className="text-2xl font-bold text-[var(--color-text)] mb-3">Self-service</h3>
-            <p className="text-base text-[var(--color-text-light)] mb-4">
+            <p className="text-[16px] font-semibold text-[var(--color-text-light)] mb-4">
               Vous gérez vos campagnes et automatisations en toute autonomie.
             </p>
             <ul className="space-y-2 text-[var(--color-text-light)]">
-              <li className="flex items-center gap-2"><Bolt size={16} className="text-[#FF9800]" /> Accès direct aux outils</li>
-              <li className="flex items-center gap-2"><Bolt size={16} className="text-[#FF9800]" /> Interface simple et intuitive</li>
-              <li className="flex items-center gap-2"><Bolt size={16} className="text-[#FF9800]" /> Contrôle total de vos actions</li>
-              <li className="flex items-center gap-2"><Bolt size={16} className="text-[#FF9800]" /> Idéal pour équipes internes ou profils techniques</li>
+              <li className="text-[14px] flex items-center gap-2"><CheckCircle size={16} className="text-[#FF9800]" /> Accès direct aux outils</li>
+              <li className="text-[14px] flex items-center gap-2"><CheckCircle size={16} className="text-[#FF9800]" /> Interface simple et intuitive</li>
+              <li className="text-[14px] flex items-center gap-2"><CheckCircle size={16} className="text-[#FF9800]" /> Contrôle total de vos actions</li>
+              <li className="text-[14px] flex items-center gap-2"><CheckCircle size={16} className="text-[#FF9800]" /> Idéal pour équipes internes ou profils techniques</li>
             </ul>
           </article>
 
@@ -51,20 +54,20 @@ export function WorkflowSection() {
               </span>
             </div>
             <h3 className="text-2xl font-bold text-[var(--color-text)] mb-3">Service managé</h3>
-            <p className="text-base text-[var(--color-text-light)] mb-4">
+            <p className="text-[16px] font-semibold  text-[var(--color-text-light)] mb-4">
               Vous déléguez l’exécution à l’équipe Growth.
             </p>
             <ul className="space-y-2 text-[var(--color-text-light)]">
-              <li className="flex items-center gap-2"><Bolt size={16} className="text-[#FF9800]" /> Stratégie, création et exécution prises en charge</li>
-              <li className="flex items-center gap-2"><Bolt size={16} className="text-[#FF9800]" /> Gain de temps maximal</li>
-              <li className="flex items-center gap-2"><Bolt size={16} className="text-[#FF9800]" /> Expertise humaine + IA</li>
-              <li className="flex items-center gap-2"><Bolt size={16} className="text-[#FF9800]" /> Idéal si vous manquez de temps ou de ressources</li>
+              <li className="text-[14px] flex items-center gap-2"><Zap size={16} className="text-[#FF9800]" /> Stratégie, création et exécution prises en charge</li>
+              <li className="text-[14px] flex items-center gap-2"><Zap size={16} className="text-[#FF9800]" /> Gain de temps maximal</li>
+              <li className="text-[14px] flex items-center gap-2"><Zap size={16} className="text-[#FF9800]" /> Expertise humaine + IA</li>
+              <li className="text-[14px] flex items-center gap-2"><Zap size={16} className="text-[#FF9800]" /> Idéal si vous manquez de temps ou de ressources</li>
             </ul>
           </article>
         </div>
 
         <div className="text-center">
-          <button className="px-8 py-4 rounded-full bg-[var(--color-primary)] text-white font-bold shadow transition hover:brightness-110">
+          <button className="px-8 py-4 rounded-[16px] bg-[var(--color-primary)] text-white font-bold shadow transition hover:brightness-110">
             Choisir mon mode d'utilisation →
           </button>
         </div>

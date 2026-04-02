@@ -45,7 +45,7 @@ export function InputSection() {
               className="w-full bg-transparent text-[var(--color-text)] placeholder-[#9CA3AF] resize-none focus:outline-none text-sm pr-10 flex-1/2 overflow-y-auto max-h-[90px] lg:max-h-[80px]"
             />
 
-            <div className="flex absolute bottom-1 left-5 pt-1">
+            <div className="flex absolute bottom-1 left-5 lg:left-245 lg:bottom-5 pt-1">
               <span className="text-xs text-[#9CA3AF]">
                 {text.length}/2000
               </span>
@@ -58,10 +58,12 @@ export function InputSection() {
               absolute lg:top-[100px] lg:left-[19px] lg:right-2 lg:w-[614px] lg:h-[47px] lg:rounded[14px]
               w-[250px]
               h-[140px]
+              md:h-[110px]
+              md:w-[500px]
               top-[127px] left-4 right-2
               bg-[var(--color-card-bg)]
               rounded-[12px]
-              grid grid-cols-1 gap-1 p-1
+              grid grid-cols-1 md:grid-cols-2 gap-1 p-1
     
               lg:flex items-center
 

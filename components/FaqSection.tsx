@@ -28,18 +28,18 @@ export function FaqSection() {
   const [openIndex, setOpenIndex] = useState<number | null>(0);
 
   return (
-    <section className="w-full py-16 bg-[var(--color-bg-secondary)]">
+    <section className="w-full py-[100px] bg-[var(--color-bg-secondary)]">
       <div className="max-w-7xl mx-auto px-6">
         <div className="text-center mb-10">
-          <h2 className="text-3xl md:text-4xl font-bold text-[var(--color-text)]">Questions fréquemment posées</h2>
-          <p className="mt-2 text-lg text-[var(--color-text-light)]">Tout ce que vous devez savoir pour démarrer sereinement.</p>
+          <h2 className="text-[48px] lg:w-[1172px] lg:ml-5 font-bold text-[var(--color-text)]">Questions fréquemment posées</h2>
+          <p className="mt-2 text-lg font-semibold text-[var(--color-text-light)]">Tout ce que vous devez savoir pour démarrer sereinement.</p>
         </div>
 
         <div className="space-y-4">
           {faqItems.map((item, index) => {
             const isOpen = openIndex === index;
             return (
-              <div key={item.question} className="rounded-2xl bg-[var(--color-card-bg)] border border-[var(--color-border)] overflow-hidden">
+              <div key={item.question} className="rounded-2xl bg-[var(--color-bg-faq)] overflow-hidden">
                 <button
                   onClick={() => setOpenIndex(isOpen ? null : index)}
                   className="w-full text-left px-6 py-5 flex items-center justify-between gap-4"

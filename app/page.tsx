@@ -1,7 +1,7 @@
 import { Header } from '@/components/Header';
 import { Hero } from '@/components/Hero';
 import { InputSection } from '@/components/InputSection';
-import { LogosSection } from '@/components/LogosSection';
+import {LogosSection} from '@/components/LogosSection';
 import { FeaturesSection } from '@/components/FeaturesSection';
 import { SocialMediaSection } from '@/components/SocialMediaSection';
 import { SolutionsSection } from '@/components/SolutionsSection';

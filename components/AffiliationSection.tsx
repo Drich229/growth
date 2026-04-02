@@ -36,15 +36,17 @@ const affiliates = [
 
 export function AffiliationSection() {
   return (
-    <section className="w-full py-16 bg-[var(--color-bg-secondary)]">
+    <section className="w-full py-[100px] bg-[var(--color-bg-secondary)]">
       <div className="max-w-7xl mx-auto px-6">
         {/* Header */}
         <div className="text-center mb-12">
-          <p className="text-sm font-semibold text-[var(--color-primary)] mb-3">Growth affiliation</p>
-          <h2 className="text-3xl md:text-4xl font-bold text-[var(--color-text)] mb-4">
+          <div className="bg-[var(--color-bg-small)] h-[28px] p-1 rounded-[10px] w-[140px] items-center justify-center mx-auto mb-6">
+            <p className="text-sm text-[var(--color-primary)] mb-3">Growth affiliation</p>
+          </div>
+          <h2 className="text-[48px] font-bold text-[var(--color-text)] mb-4">
             Recommandez Growth.<br />Gagnez à chaque client apporté.
           </h2>
-          <p className="text-base md:text-lg text-[var(--color-text-light)] max-w-2xl mx-auto">
+          <p className="text-[20px] font-semibold text-[var(--color-text-light)] max-w-2xl mx-auto">
             Un programme simple et transparent pour les créateurs, agences et entrepreneurs qui parlent croissance.
           </p>
         </div>
@@ -52,7 +54,7 @@ export function AffiliationSection() {
         {/* Three Steps Grid */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">
           {/* Step 1 */}
-          <div className="rounded-3xl bg-[var(--color-card-bg)] border-2 border-[var(--color-border)] p-8 flex flex-col h-full">
+          <div className="rounded-3xl bg-[var(--color-card-bg)] border-2 border-[var(--color-border)] p-3 flex flex-col h-full">
             {/* Header */}
             <div className= 'border-black bg-white border-2 rounded-2xl p-4 mb-6'>
                 <div className="pb-6 border-b-2 border-[var(--color-border)] mb-6">
@@ -116,7 +118,7 @@ export function AffiliationSection() {
           </div>
 
           {/* Step 3 */}
-          <div className="rounded-3xl bg-[var(--color-card-bg)] border-2 border-[var(--color-border)] p-8 flex flex-col h-full">
+          <div className="rounded-3xl bg-[var(--color-card-bg)] border-2 border-[var(--color-border)] p-3 flex flex-col h-full">
             {/* Header */}
 
             {/* Content */}
@@ -146,8 +148,8 @@ export function AffiliationSection() {
         </div>
 
         {/* CTA Button */}
-        <div className="text-center">
-          <button className="px-8 py-4 rounded-full bg-[var(--color-primary)] text-white font-bold shadow transition hover:brightness-110">
+        <div className="text-center mx-auto mt-[80px] w-[417px]">
+          <button className="px-8 py-4 rounded-[16px] bg-[var(--color-primary)] text-white font-bold shadow transition hover:brightness-110">
             Découvrir le programme d'affiliation →
           </button>
         </div>

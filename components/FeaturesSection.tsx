@@ -45,14 +45,16 @@ const features = [
 
 export function FeaturesSection() {
   return (
-    <section className="w-full bg-[var(--color-bg-secondary)] py-16">
+    <section className="w-full bg-[var(--color-bg-feature)] py-16">
       <div className="max-w-7xl mx-auto px-6">
         {/* Header */}
         <div className="text-center mb-12">
-          <p className="text-[var(--color-primary)] font-semibold text-sm mb-2">
+          <div className="bg-[var(--color-bg-small)] h-[28px] p-1 rounded-[10px] w-[160px] items-center justify-center mx-auto mb-6">
+            <p className="text-[var(--color-primary)] font-weight-[400px] text-sm mb-2">
             Avantages exclusifs
-          </p>
-          <h2 className="text-3xl md:text-4xl pt-2 font-bold text-[var(--color-text)] mb-8">
+            </p>
+          </div>
+          <h2 className="text-[48px] pt-2 font-bold text-[var(--color-text)] mb-8">
             Pourquoi choisir Growth ?
           </h2>
         </div>
@@ -60,7 +62,7 @@ export function FeaturesSection() {
         {/* Features Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {/* Marketing Card - Large */}
-          <div className={`${features[0].large ? 'md:row-span-2 lg:col-span-1' : ''} bg-[var(--color-card-bg)] rounded-3xl p-8 border border-[var(--color-border)] shadow-sm hover:shadow-md transition-shadow`}>
+          <div className={`${features[0].large ? 'md:row-span-2 lg:col-span-1' : ''} bg-[var(--color-card-bg)] rounded-3xl p-8 border border-[var(--color-border)] hover:shadow-md transition-shadow`}>
             <div className="flex items-center justify-center w-24 h-24 bg-[var(--color-primary)] rounded-3xl mb-8">
               <Megaphone size={40} className="text-white" />
             </div>
@@ -86,7 +88,7 @@ export function FeaturesSection() {
           </div>
 
           {/* Ventes Card */}
-          <div className="bg-[var(--color-card-bg)] rounded-2xl p-8 border border-[var(--color-border)] shadow-sm hover:shadow-md transition-shadow">
+          <div className="bg-[var(--color-card-bg)] rounded-2xl p-8 border border-[var(--color-border)] transition-shadow">
             <div className="flex items-center justify-center w-14 h-14 bg-[var(--color-primary)] rounded-lg mb-6">
               <ShoppingCart size={24} className="text-white" />
             </div>
@@ -100,7 +102,7 @@ export function FeaturesSection() {
           </div>
 
           {/* Service après-vente Card */}
-          <div className="bg-[var(--color-card-bg)] rounded-2xl p-8 border border-[var(--color-border)] shadow-sm hover:shadow-md transition-shadow">
+          <div className="bg-[var(--color-card-bg)] rounded-2xl p-8 border border-[var(--color-border)] transition-shadow">
             <div className="flex items-center justify-center w-14 h-14 bg-[var(--color-primary)] rounded-lg mb-6">
               <RefreshCw size={24} className="text-white" />
             </div>
@@ -113,7 +115,7 @@ export function FeaturesSection() {
           </div>
 
           {/* Service client Card */}
-          <div className="bg-[var(--color-card-bg)] rounded-2xl p-8 border border-[var(--color-border)] shadow-sm hover:shadow-md transition-shadow">
+          <div className="bg-[var(--color-card-bg)] rounded-2xl p-8 border border-[var(--color-border)] transition-shadow">
             <div className="flex items-center justify-center w-14 h-14 bg-[var(--color-primary)] rounded-lg mb-6">
               <Heart size={24} className="text-white" />
             </div>
@@ -126,7 +128,7 @@ export function FeaturesSection() {
           </div>
 
           {/* Intelligence artificielle Card */}
-          <div className="bg-[var(--color-card-bg)] rounded-2xl p-8 border border-[var(--color-border)] shadow-sm hover:shadow-md transition-shadow">
+          <div className="bg-[var(--color-card-bg)] rounded-2xl p-8 border border-[var(--color-border)]  transition-shadow">
             <div className="flex items-center justify-center w-14 h-14 bg-[var(--color-primary)] rounded-lg mb-6">
               <Lightbulb size={24} className="text-white" />
             </div>

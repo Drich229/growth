@@ -22,25 +22,33 @@ body {
   --color-arrow-bg : #ffffff;
   --color-input-bg: rgb(243, 243, 243);
   --color-neutral-text : #171A1FFF;
-  --icon-kloo-bg: #EEF1F9;
-  --icon-wachap-bg: #E6F7E6;
-  --icon-aginap-bg: #F9EACB;
-  --icon-typebot-bg: #E0E0E0;
+  --icon-kloo-bg: #3348F60D;
+  --icon-wachap-bg: #20B24B0D;
+  --icon-aginap-bg: #FF70340D;
+  --icon-typebot-bg: #1D21280D;
   --social-messenger-bg: #ADD8E6;
   --social-messenger-icon-bg: #CBE2F9;
 
   --social-instagram-bg: #FFB6D9;
-  --social-instagram-icon-bg: #F9B7C8;
+  --social-instagram-icon-bg: #E8618C66;
 
   --social-whatsapp-bg: #90EE90;
   --social-whatsapp-icon-bg: #BFF9B7;
 
   --social-facebook-bg: #0B7FFF;
   --social-facebook-icon-bg: #4F71F9;
+  --color-bg-feature : rgb(245, 243, 243);
+  --color-bg-media : rgb(247, 250, 250);
+  --color-bg-small : #fcf2e6;
+  --color-bg-faq : rgb(219, 219, 219);
 }
 
 /* Dark mode */
 html.dark {
+  --color-bg-feature : #18181BFF;
+  --color-bg-faq : rgb(32, 32, 34);
+  --color-bg-small : rgb(48, 30, 9);
+  --color-bg-media : rgb(22, 22, 22);
   --color-text-selected : #E4E4E7FF;
   --color-text-no-selected : #A1A1AAFF;
   --color-primary: #FF8A00FF;
