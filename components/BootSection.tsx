@@ -15,7 +15,7 @@ const BoostSection = () => {
 
       {/* Star Decoration - Right */}
       <div>
-        <Image src="/star.png" alt="Star Decoration" className="lg:top-[190px] lg:w-[300px] lg:h-[400px] lg:left-[1300px] top-[400px] left-[200px]" style={{  position: 'absolute',
+        <Image src="/star.png" alt="Star Decoration" className="lg:top-[190px] lg:w-[300px] lg:h-[400px] lg:left-[1200px] top-[400px] left-[200px]" style={{  position: 'absolute',
           borderRadius: '0px',
           transform: 'rotate(8.32deg)' }} width={160} height={200}/>
       </div>
