@@ -26,10 +26,10 @@ export function InputSection() {
   return (
     <section className="max-w-7xl mx-auto bg-[var(--color-bg-secondary)]">
       {/* Main Container */}
-      <div className="bg-[var(--color-card-bg)] p-5 border-width-[1px] border-color-[#DEE1E6FF] rounded-[16px] w-[560px] md:w-[800px] lg:w-[1093px] mx-auto rounded-[16px] h-[270px] lg:h-[206px] shadow-sm">
+      <div className="bg-[var(--color-card-bg)] p-5 border-color-[#DEE1E6FF] rounded-[16px] w-[360px] md:w-[800px] lg:w-[1093px] mx-auto rounded-[16px] h-[350px] lg:h-[206px] shadow-sm">
         
         {/* Textarea Container */}
-        <div className="lg:h-[164px] w-[520px] md:w-[760px] h-[220px] lg:w-[1051px] bg-[var(--color-inp-bg)] rounded-[16px] flex flex-col p-4 relative">
+        <div className="lg:h-[164px] w-[320px] md:w-[760px] h-[300px] lg:w-[1051px] bg-[var(--color-inp-bg)] rounded-[16px] flex flex-col p-4 relative">
           
           {/* Arrow */}
           <button className="absolute top-3 right-3 p-2 rounded-full bg-[var(--color-arrow-bg)] hover:opacity-80 transition">
@@ -45,7 +45,7 @@ export function InputSection() {
               className="w-full bg-transparent text-[var(--color-text)] placeholder-[#9CA3AF] resize-none focus:outline-none text-sm pr-10 flex-1/2 overflow-y-auto max-h-[90px] lg:max-h-[80px]"
             />
 
-            <div className="flex absolute bottom-1 right-3 p-2">
+            <div className="flex absolute bottom-1 left-5 pt-1">
               <span className="text-xs text-[#9CA3AF]">
                 {text.length}/2000
               </span>
@@ -56,12 +56,12 @@ export function InputSection() {
           <div
             className="
               absolute lg:top-[100px] lg:left-[19px] lg:right-2 lg:w-[614px] lg:h-[47px] lg:rounded[14px]
-              w-[410px]
-              h-[80px]
+              w-[250px]
+              h-[140px]
               top-[127px] left-4 right-2
               bg-[var(--color-card-bg)]
               rounded-[12px]
-              grid grid-cols-2 gap-1 p-2
+              grid grid-cols-1 gap-1 p-1
     
               lg:flex items-center
 
