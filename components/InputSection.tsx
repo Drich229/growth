@@ -26,10 +26,10 @@ export function InputSection() {
   return (
     <section className="max-w-7xl mx-auto bg-[var(--color-bg-secondary)]">
       {/* Main Container */}
-      <div className="bg-[var(--color-card-bg)] p-5 border-color-[#DEE1E6FF] rounded-[16px] w-[360px] md:w-[800px] lg:w-[1093px] mx-auto rounded-[16px] h-[350px] lg:h-[206px] shadow-sm">
+      <div className="bg-[var(--color-card-bg)] p-5 border-neutral-300 rounded-[16px] w-[350px] md:w-[800px] lg:w-[1093px] mx-auto rounded-[16px] h-[350px] lg:h-[206px] shadow-sm">
         
         {/* Textarea Container */}
-        <div className="lg:h-[164px] w-[320px] md:w-[760px] h-[300px] lg:w-[1051px] bg-[var(--color-inp-bg)] rounded-[16px] flex flex-col p-4 relative">
+        <div className="lg:h-[164px] w-[310px] md:w-[760px] h-[300px] lg:w-[1051px] bg-[var(--color-inp-bg)] rounded-[16px] flex flex-col p-4 relative">
           
           {/* Arrow */}
           <button className="absolute top-3 right-3 p-2 rounded-full bg-[var(--color-arrow-bg)] hover:opacity-80 transition">
