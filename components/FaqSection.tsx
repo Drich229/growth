@@ -31,7 +31,7 @@ export function FaqSection() {
     <section className="w-full py-[100px] bg-[var(--color-bg-secondary)]">
       <div className="max-w-7xl mx-auto px-6">
         <div className="text-center mb-10">
-          <h2 className="lg:text-[48px] text-3xl lg:w-[1172px] lg:ml-5 font-bold text-[var(--color-text)]">Questions fréquemment posées</h2>
+          <h2 className="lg:text-[48px] text-2xl lg:w-[1172px] lg:ml-5 font-bold text-[var(--color-text)]">Questions fréquemment posées</h2>
           <p className="mt-2 text-lg font-semibold text-[var(--color-text-light)]">Tout ce que vous devez savoir pour démarrer sereinement.</p>
         </div>
 

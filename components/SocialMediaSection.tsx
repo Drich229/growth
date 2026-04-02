@@ -70,7 +70,7 @@ export function SocialMediaSection() {
                   <p style={{ height: '95px',
                         fontSize: '24px', 
                         lineHeight: '40px',
-                     }} className="w-[270px] md:w-[350px] lg:w-[297px] text-[var(--color-text)] font-semibold leading-tight">
+                     }} className="w-[290px] pr-3 md:w-[350px] lg:w-[297px] text-[var(--color-text)] font-semibold leading-tight">
                     {social.description}
                   </p>
                 </div>
