@@ -27,10 +27,10 @@ export function InputSection() {
     <section className="max-w-7xl mx-auto bg-[var(--color-bg-secondary)]">
       {/* Main Container */}
       <div className="bg-[var(--color-card-bg)] p-5 border-neutral-300 rounded-[16px] w-[340px] md:w-[800px] lg:w-[1093px] mx-auto rounded-[16px] h-[350px] lg:h-[206px] shadow-sm">
-        
+
         {/* Textarea Container */}
         <div className="lg:h-[164px] w-[300px] md:w-[760px] h-[300px] lg:w-[1051px] bg-[var(--color-inp-bg)] rounded-[16px] flex flex-col p-4 relative">
-          
+
           {/* Arrow */}
           <button className="absolute top-3 right-3 p-2 rounded-full bg-[var(--color-arrow-bg)] hover:opacity-80 transition">
             <Image src="/arrow.png" alt="Envoyer" width={20} height={20} />
@@ -93,7 +93,7 @@ export function InputSection() {
                       opacity: isSelected ? 1 : 0.6
                     }}
                   />
-                  <span>{cat.label}</span>
+                  <span style={{ fontWeight: 700 }}>{cat.label}</span>
                 </button>
               );
             })}

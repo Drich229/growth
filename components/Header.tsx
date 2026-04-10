@@ -10,36 +10,36 @@ export function Header() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <header className="w-full border-b border-[var(--color-border)] bg-[var(--color-bg)] fixed top-0 left-0 right-0 z-50">
-      <nav className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
-        <div className="text-[20px] font-bold text-[var(--color-text)]">GROWTH</div>
+    <header className="max-w-full border-b border-[var(--color-border)] bg-[var(--color-bg)] fixed top-0 left-0 right-0 z-50">
+      <nav className="lg:relative h-[68px] max-w-full mx-auto px-6 py-4 flex items-center justify-between">
+        <div className="text-[20px] leading-[20px] font-bold lg:absolute lg:left-[190px] text-[var(--color-text)]">GROWTH</div>
 
         {/* Desktop Menu */}
-        <div className="hidden lg:flex items-center gap-12">
-          <Link href="#" className="text-[var(--color-text)] text-sm hover:text-[var(--color-primary)] transition-colors">
+        <div className="hidden lg:flex lg:absolute lg:top-[21px] lg:left-[430px] lg:w-[383px] lg:h-[26px] items-center text-[14px] leading-[22px] font-normal opacity-100">
+          <Link href="#" className="flex items-center justify-center whitespace-nowrap bg-transparent rounded-none py-[2px] px-[15px] text-[16px] leading-[26px] font-normal text-[var(--color-neutral-text)] dark:text-[var(--color-text)] hover:text-[var(--color-primary)] hover:font-bold transition-all">
             Accueil
           </Link>
-          <Link href="#" className="text-[var(--color-text)] text-sm hover:text-[var(--color-primary)] transition-colors">
+          <Link href="#" className="flex items-center justify-center whitespace-nowrap bg-transparent rounded-none py-[2px] px-[15px] text-[16px] leading-[26px] font-normal text-[var(--color-neutral-text)] dark:text-[var(--color-text)] hover:text-[var(--color-primary)] hover:font-bold transition-all">
             Affiliation
           </Link>
-          <Link href="#" className="text-[var(--color-text)] text-sm hover:text-[var(--color-primary)] transition-colors">
+          <Link href="#" className="flex items-center justify-center whitespace-nowrap bg-transparent rounded-none py-[2px] px-[15px] text-[16px] leading-[26px] font-normal text-[var(--color-neutral-text)] dark:text-[var(--color-text)] hover:text-[var(--color-primary)] hover:font-bold transition-all">
             A propos
           </Link>
-          <Link href="#" className="text-[var(--color-text)] text-sm hover:text-[var(--color-primary)] transition-colors">
+          <Link href="#" className="flex items-center justify-center whitespace-nowrap bg-transparent rounded-none py-[2px] px-[15px] text-[16px] leading-[26px] font-normal text-[var(--color-neutral-text)] dark:text-[var(--color-text)] hover:text-[var(--color-primary)] hover:font-bold transition-all">
             Contact
           </Link>
         </div>
 
-        <div className="hidden lg:flex items-center gap-6">
-          <LanguageSelector />
-          <button className="px-6 py-2 bg-[var(--color-primary)] text-white font-semibold rounded-[12px] hover:bg-[var(--color-primary-dark)] transition-colors text-sm">
+        <div className="hidden lg:flex lg:absolute lg:left-[950px] items-center gap-2">
+          <div><LanguageSelector /></div>
+          <button className="flex font-semibold items-center justify-center gap-[6px] w-[247px] h-[40px] px-[12px] text-[14px] leading-[22px] text-white bg-[var(--color-primary)] border-none rounded-[12px] shadow-[0px_0px_1px_#171a1f12,_0px_0px_2px_#171a1f1F] hover:bg-[#E47A00] hover:text-white active:bg-[#C96B00] active:text-white disabled:opacity-40 transition-colors">
             Découvrir nos offres →
           </button>
           <ThemeToggle />
         </div>
 
         {/* Mobile Menu Button */}
-        <div className="lg:hidden flex items-center gap-3">
+        <div className="lg:hidden flex items-center gap-1">
           <ThemeToggle />
           <button
             className="text-[var(--color-text)]"
@@ -68,7 +68,7 @@ export function Header() {
           <div className="pt-4 border-t border-[var(--color-border)]">
             <LanguageSelector />
           </div>
-          <button className="w-full px-6 py-2 bg-[var(--color-primary)] text-white font-semibold rounded-[12px]">
+          <button className="flex items-center justify-center gap-[6px] w-full h-[40px] px-[12px] text-[14px] leading-[22px] font-normal text-white bg-[var(--color-primary)] border-none rounded-[12px] shadow-[0px_0px_1px_#171a1f12,_0px_0px_2px_#171a1f1F] hover:bg-[#E47A00] hover:text-white active:bg-[#C96B00] active:text-white disabled:opacity-40 transition-colors">
             Découvrir nos offres →
           </button>
         </div>

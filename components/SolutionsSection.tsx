@@ -35,7 +35,7 @@ const solutions = [
 
 export function SolutionsSection() {
   return (
-    <section className="w-full py-[100px] bg-[var(--color-bg-secondary)]">
+    <section className="w-full py-[100px] mt-10 bg-[var(--color-bg-secondary)]">
       <div className="max-w-7xl mx-auto px-6">
 
         {/* Header */}
@@ -52,7 +52,7 @@ export function SolutionsSection() {
               key={solution.id}
               className="flex flex-col items-center border border-neutral-200 text-center p-1 rounded-2xl bg-[var(--color-card-bg)] transition-all duration-300"
             >
-              
+
               {/* Icon */}
               <div
                 className="flex items-center justify-center w-full py-14 rounded-2xl mb-6"
@@ -68,18 +68,21 @@ export function SolutionsSection() {
               </div>
 
               {/* Name */}
-              <h3 className="font-bold mx-auto text-[var(--color-text)] mb-3" style = {{
-                  height: '40px',
-                  textAlign : 'center',
-                  fontSize: '28px', 
-                  lineHeight: '40px', }}>
+              <h3 className="font-bold mx-auto text-[var(--color-text)] mb-3" style={{
+                height: '40px',
+                textAlign: 'center',
+                fontSize: '28px',
+                lineHeight: '40px',
+              }}>
                 {solution.name}
               </h3>
 
               {/* Description */}
-              <p className="pb-4 text-[var(--color-text-light)] leading-relaxed" style={{ width: '272px',
-                  fontSize: '16px', 
-                  lineHeight: '24px', }}>
+              <p className="pb-4 text-[var(--color-text-light)] leading-relaxed" style={{
+                width: '272px',
+                fontSize: '16px',
+                lineHeight: '24px',
+              }}>
                 {solution.description}
               </p>
             </div>

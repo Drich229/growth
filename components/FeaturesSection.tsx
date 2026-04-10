@@ -1,6 +1,6 @@
 'use client';
 
-import { Megaphone, ShoppingCart, RefreshCw, Heart, Lightbulb } from 'lucide-react';
+import { Megaphone, Bot, HeartHandshake, Heart, Sparkles, ShoppingCart } from 'lucide-react';
 
 const features = [
   {
@@ -25,7 +25,7 @@ const features = [
   },
   {
     id: 3,
-    icon: RefreshCw,
+    icon: HeartHandshake,
     title: 'Service après-vente',
     description: 'Fidélisation client automatisée et personnalisée'
   },
@@ -37,7 +37,7 @@ const features = [
   },
   {
     id: 5,
-    icon: Lightbulb,
+    icon: Sparkles,
     title: 'Intelligence artificielle',
     description: 'Conseiller IA 4/7 + automatisations intelligentes'
   }
@@ -51,7 +51,7 @@ export function FeaturesSection() {
         <div className="text-center mb-12">
           <div className="bg-[var(--color-bg-small)] h-[28px] p-1 rounded-[10px] w-[160px] items-center justify-center mx-auto mb-6">
             <p className="text-[var(--color-primary)] font-weight-[400px] text-sm mb-2">
-            Avantages exclusifs
+              Avantages exclusifs
             </p>
           </div>
           <h2 className="text-[48px] pt-2 font-bold text-[var(--color-text)] mb-8">
@@ -60,27 +60,30 @@ export function FeaturesSection() {
         </div>
 
         {/* Features Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="lg:mx-auto ml-25 grid grid-cols-1 lg:w-[1150px] md:grid-cols-2 lg:grid-cols-3 gap-6">
           {/* Marketing Card - Large */}
-          <div className={`${features[0].large ? 'md:row-span-2 lg:col-span-1' : ''} bg-[var(--color-card-bg)] rounded-3xl p-8 border border-[var(--color-border)] hover:shadow-md transition-shadow`}>
-            <div className="flex items-center justify-center w-24 h-24 bg-[var(--color-primary)] rounded-3xl mb-8">
-              <Megaphone size={40} className="text-white" />
+          <div className={`${features[0].large ? 'md:row-span-2 lg:col-span-1' : ''} bg-[var(--color-card-bg)] w-[350px] h-[459px] rounded-[16px] p-5 border border-[var(--color-border-feat)]`}>
+            <div className="flex items-center justify-center w-[62px] h-[62px] bg-[var(--color-primary)] rounded-[12px] mb-8">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-white">
+                <path d="M3 8.5h4.5L18 4v16L7.5 15.5H3v-7z" />
+                <path d="M10 15v4.5a2 2 0 0 1-4 0V14.5" />
+              </svg>
             </div>
             <h3 className="text-3xl font-bold text-[var(--color-text)] mb-4">
               {features[0].title}
             </h3>
-            <p className="text-base mb-6">
-              <span className="font-bold text-[var(--color-text)]">{features[0].stat}</span>
-              <span className="text-[var(--color-text-light)]">, {features[0].description}</span>
+            <p className="text-[18px] mb-6 w-[309px] h-[49px]">
+              <span className="font-bold text-[var(--color-neutral-text)]">{features[0].stat}</span>
+              <span className="text-[var(--color-neutral-text)]">, {features[0].description}</span>
             </p>
-            
+
             {/* Divider */}
             <div className="border-t border-[var(--color-border)] my-6"></div>
-            
+
             <ul className="space-y-3">
               {features[0].benefits?.map((benefit, idx) => (
-                <li key={idx} className="flex items-start gap-3 text-base text-[var(--color-text)]">
-                  <span className="text-[var(--color-primary)] font-bold mt-0">•</span>
+                <li key={idx} className="flex items-start gap-3 text-[16px] text-[var(--color-neutral-text)]">
+                  <span className="text-[var(--color-neutral-text)] font-bold mt-0">•</span>
                   <span>{benefit}</span>
                 </li>
               ))}
@@ -88,54 +91,54 @@ export function FeaturesSection() {
           </div>
 
           {/* Ventes Card */}
-          <div className="bg-[var(--color-card-bg)] rounded-2xl p-8 border border-[var(--color-border)] transition-shadow">
-            <div className="flex items-center justify-center w-14 h-14 bg-[var(--color-primary)] rounded-lg mb-6">
+          <div className="bg-[var(--color-card-bg)] w-[360px] h-[220px] rounded-[16px] p-8 border border-[var(--color-border-feat)]">
+            <div className="flex items-center justify-center w-[48px] h-[48px] bg-[var(--color-primary)] rounded-[12px] mb-6">
               <ShoppingCart size={24} className="text-white" />
             </div>
-            <h3 className="text-xl font-bold text-[var(--color-text)] mb-2">
+            <h3 className="text-[20px] font-bold text-[var(--color-neutral-text)] mb-2">
               {features[1].title}
             </h3>
-            <p className="text-sm">
-              <span className="font-bold text-[var(--color-text)]">{features[1].stat}</span>
-              <span className="text-[var(--color-text-light)]"> {features[1].description}</span>
+            <p className="text-[16px] w-[316px]">
+              <span className="font-bold text-[var(--color-neutral-text)]">{features[1].stat}</span>
+              <span className="text-[var(--color-neutral-text)]"> {features[1].description}</span>
             </p>
           </div>
 
           {/* Service après-vente Card */}
-          <div className="bg-[var(--color-card-bg)] rounded-2xl p-8 border border-[var(--color-border)] transition-shadow">
-            <div className="flex items-center justify-center w-14 h-14 bg-[var(--color-primary)] rounded-lg mb-6">
-              <RefreshCw size={24} className="text-white" />
+          <div className="bg-[var(--color-card-bg)] w-[360px] h-[220px] rounded-[16px] p-8 border border-[var(--color-border-feat)]">
+            <div className="flex items-center justify-center w-[48px] h-[48px] bg-[var(--color-primary)] rounded-[12px] mb-6">
+              <HeartHandshake size={24} className="text-white" />
             </div>
-            <h3 className="text-xl font-bold text-[var(--color-text)] mb-2">
+            <h3 className="text-[20px] font-bold text-[var(--color-neutral-text)] mb-2">
               {features[2].title}
             </h3>
-            <p className="text-sm text-[var(--color-text-light)]">
+            <p className="text-[16px] w-[273px] h-[46px] text-[var(--color-neutral-text)]">
               {features[2].description}
             </p>
           </div>
 
           {/* Service client Card */}
-          <div className="bg-[var(--color-card-bg)] rounded-2xl p-8 border border-[var(--color-border)] transition-shadow">
-            <div className="flex items-center justify-center w-14 h-14 bg-[var(--color-primary)] rounded-lg mb-6">
+          <div className="bg-[var(--color-card-bg)] w-[360px] h-[220px] rounded-[16px] p-8 border border-[var(--color-border-feat)]">
+            <div className="flex items-center justify-center w-[48px] h-[48px] bg-[var(--color-primary)] rounded-[12px] mb-6">
               <Heart size={24} className="text-white" />
             </div>
-            <h3 className="text-xl font-bold text-[var(--color-text)] mb-2">
+            <h3 className="text-[20px] font-bold text-[var(--color-neutral-text)] mb-2">
               {features[3].title}
             </h3>
-            <p className="text-sm text-[var(--color-text-light)]">
+            <p className="text-[16px] w-[310px] h-[29px] text-[var(--color-neutral-text)]">
               {features[3].description}
             </p>
           </div>
 
           {/* Intelligence artificielle Card */}
-          <div className="bg-[var(--color-card-bg)] rounded-2xl p-8 border border-[var(--color-border)]  transition-shadow">
-            <div className="flex items-center justify-center w-14 h-14 bg-[var(--color-primary)] rounded-lg mb-6">
-              <Lightbulb size={24} className="text-white" />
+          <div className="bg-[var(--color-card-bg)] w-[360px] h-[220px] rounded-[16px] p-8 border border-[var(--color-border-feat)] ">
+            <div className="flex items-center justify-center w-[48px] h-[48px] bg-[var(--color-primary)] rounded-[12px] mb-6">
+              <Bot size={24} className="text-white" />
             </div>
-            <h3 className="text-xl font-bold text-[var(--color-text)] mb-2">
+            <h3 className="text-[20px] font-bold text-[var(--color-neutral-text)] mb-2">
               {features[4].title}
             </h3>
-            <p className="text-sm text-[var(--color-text-light)]">
+            <p className="text-[16px] w-[283px] h-[46px] text-[var(--color-neutral-text)]">
               {features[4].description}
             </p>
           </div>

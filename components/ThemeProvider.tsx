@@ -35,7 +35,7 @@ export function ThemeToggle() {
   }, []);*/
 
   const toggleLight = () => {
-    const newTheme = false ;
+    const newTheme = false;
     setIsDark(newTheme);
 
     document.documentElement.classList.remove('dark');
@@ -43,23 +43,22 @@ export function ThemeToggle() {
   };
 
   const toggleDark = () => {
-    const newTheme = true ;
+    const newTheme = true;
     setIsDark(newTheme);
 
     document.documentElement.classList.add('dark');
     localStorage.setItem('theme', 'dark');
   };
-  
+
   return (
-    <div className='w-[64px] h-[40px] border-1 px-3 border-neutral-300 bg-[var(--color-bg-secondary)] rounded-[12px] flex items-center justify-center' >
+    <div className='w-[64px] h-[40px] border-1 mx-1 border-neutral-300 bg-[var(--color-bg-secondary)] rounded-[12px] flex items-center justify-center' >
       <button
         onClick={toggleDark}
         className="bg-[var(--color-bg-secondary)] rounded-[12px] transition-colors hover:opacity-80"
         aria-label="Toggle theme"
       >
-        <div className={`flex items-center w-[26px] h-[26px] justify-center p-1 rounded-[6px] ${
-          isDark ? 'bg-[#27272AFF]' : 'bg-white'
-        }`}>
+        <div className={`flex items-center w-[26px] h-[26px] justify-center p-1 rounded-[6px] ${isDark ? 'bg-[#27272AFF]' : 'bg-white'
+          }`}>
           <Moon size={16} style={{ fill: '#A1A1A1FF' }} className={`${isDark ? 'text-[#666666]' : 'text-[#A1A1A1FF]'}`} />
         </div>
       </button>
@@ -68,13 +67,12 @@ export function ThemeToggle() {
         className="bg-[var(--color-bg-secondary)] rounded-[12px] transition-colors hover:opacity-80"
         aria-label="Toggle theme"
       >
-        <div className={`flex items-center justify-center w-[26px] h-[26px] p-1 rounded-[6px] transition-all ${
-          isDark ? 'bg-[#1a1a1a]' : 'bg-[#E5E5E5FF]'
-        }`}>
-          <Sun size={16} style={{fill: `${isDark ? '#F4F4F5FF':'#171A1FFF' }` }} />
+        <div className={`flex items-center justify-center w-[26px] h-[26px] p-1 rounded-[6px] transition-all ${isDark ? 'bg-[#1a1a1a]' : 'bg-[#E5E5E5FF]'
+          }`}>
+          <Sun size={16} style={{ fill: `${isDark ? '#F4F4F5FF' : '#171A1FFF'}` }} />
         </div>
       </button>
     </div>
-    
+
   );
 }

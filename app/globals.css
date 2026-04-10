@@ -3,25 +3,27 @@
 body {
   font-family: 'Sora', sans-serif;
 }
+
 /* Light mode (default) */
 :root {
-  --color-bg-selector : #F8F9FAF2;
+  --color-bg-selector: #F8F9FAF2;
   --color-primary: #FF8A00FF;
   --color-primary-dark: #e68a00;
   --color-bg: #ffffff;
-  --color-text-selected : #3F3F46FF;
-  --color-text-no-selected : #9095A1FF;
+  --color-text-selected: #3F3F46FF;
+  --color-text-no-selected: #9095A1FF;
   --color-border-ld: #DEE1E6FF;
+  --color-border-feat: #E5E5E5FF;
   --color-bg-secondary: #ffffff;
   --color-text: #171717;
   --color-text-light: #666666;
   --color-border: #e0e0e0;
   --color-inpu-bg: #ffffff;
   --color-card-bg: #ffffff;
-  --color-inp-bg :#F8F9FAFF;
-  --color-arrow-bg : #ffffff;
+  --color-inp-bg: #F8F9FAFF;
+  --color-arrow-bg: #ffffff;
   --color-input-bg: rgb(243, 243, 243);
-  --color-neutral-text : #171A1FFF;
+  --color-neutral-text: #171A1FFF;
   --icon-kloo-bg: #3348F60D;
   --icon-wachap-bg: #20B24B0D;
   --icon-aginap-bg: #FF70340D;
@@ -37,39 +39,48 @@ body {
 
   --social-facebook-bg: #0B7FFF;
   --social-facebook-icon-bg: #4F71F9;
-  --color-bg-feature : rgb(245, 243, 243);
-  --color-bg-media : rgb(247, 250, 250);
-  --color-bg-small : #fcf2e6;
-  --color-bg-faq : rgb(252, 247, 247);
+  --color-bg-feature: #F8F9FAFF;
+  --color-bg-media: rgb(247, 250, 250);
+  --color-bg-small: #fcf2e6;
+  --color-bg-faq: rgb(252, 247, 247);
+  --color-hero-text: #323743FF;
+  --color-hero-text-2: #171A1FFF;
+  --color-text-media: #211E23FF;
+  --color-text-media-2: rgb(145, 149, 158);
 }
 
 /* Dark mode */
 html.dark {
-  --color-bg-feature : #18181BFF;
-  --color-bg-faq : rgb(32, 32, 34);
-  --color-bg-small : rgb(48, 30, 9);
-  --color-bg-media : rgb(22, 22, 22);
-  --color-text-selected : #E4E4E7FF;
-  --color-text-no-selected : #A1A1AAFF;
+  --color-text-media-2: #A1A1AAFF;
+  --color-text-media: #FFFFFF;
+  --color-border-feat: #3F3F46FF;
+  --color-hero-text: #FFFFFF;
+  --color-hero-text-2: rgb(140, 140, 148);
+  --color-bg-feature: #18181BFF;
+  --color-bg-faq: rgb(32, 32, 34);
+  --color-bg-small: rgb(48, 30, 9);
+  --color-bg-media: rgb(22, 22, 22);
+  --color-text-selected: #E4E4E7FF;
+  --color-text-no-selected: #A1A1AAFF;
   --color-primary: #FF8A00FF;
   --color-primary-dark: #ffb84d;
   --color-bg: #0a0a0a;
   --color-bg-secondary: #000000;
   --color-text: #ededed;
-  --color-bg-selector : #27272AFF;
-  --color-arrow-bg : #252424;
+  --color-bg-selector: #27272AFF;
+  --color-arrow-bg: #252424;
   --color-text-light: #999999;
-  --color-inpu-bg : #18181BFF;
+  --color-inpu-bg: #18181BFF;
   --color-border: #333333;
   --color-card-bg: #1a1a1a;
   --color-input-bg: #e9e6e6;
-  --color-inp-bg : #27272AFF;
-   --color-neutral-text : rgb(167, 167, 170);
-   --icon-kloo-bg: #1E293B;
+  --color-inp-bg: #27272AFF;
+  --color-neutral-text: rgb(167, 167, 170);
+  --icon-kloo-bg: #1E293B;
   --icon-wachap-bg: #14532D;
   --icon-aginap-bg: #78350F;
   --icon-typebot-bg: #3F3F46;
-   --social-messenger-bg: #1E3A5F;
+  --social-messenger-bg: #1E3A5F;
   --social-messenger-icon-bg: #334155;
 
   --social-instagram-bg: #5B2140;
