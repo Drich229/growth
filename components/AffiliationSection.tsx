@@ -52,9 +52,9 @@ export function AffiliationSection() {
         </div>
 
         {/* Three Steps Grid */}
-        <div className="lg:w-[1020px] mt-23 mx-auto grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">
+        <div className="lg:w-[1020px] w-full mt-23 mx-auto grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">
           {/* Step 1 */}
-          <div className="rounded-[16px] w-[315px] h-[520px] bg-[var(--color-card-bg)] border-2 border-[var(--color-border)] p-3 flex flex-col">
+          <div className="rounded-[16px] w-full md:w-[315px] mx-auto max-w-[315px] h-[520px] bg-[var(--color-card-bg)] border-2 border-[var(--color-border)] p-3 flex flex-col">
             {/* Header */}
             <div className='border-black h-[239px] w-[291px] bg-white border-2 rounded-2xl mb-6'>
               <div className="p-5 border-b-2 pb-2 border-[var(--color-border)] mb-6">
@@ -83,7 +83,7 @@ export function AffiliationSection() {
           </div>
 
           {/* Step 2 */}
-          <div className="rounded-[16px] w-[315px] h-[506px] bg-[var(--color-card-bg)] border-2 border-[var(--color-border)] p-4 flex flex-col h-full">
+          <div className="rounded-[16px] w-full md:w-[315px] mx-auto max-w-[315px] h-[506px] bg-[var(--color-card-bg)] border-2 border-[var(--color-border)] p-4 flex flex-col h-full">
             <div className="flex items-start justify-between mb-2">
               <h3 className="text-4xl font-bold text-[var(--color-text)]">02</h3>
             </div>
@@ -124,7 +124,7 @@ export function AffiliationSection() {
           </div>
 
           {/* Step 3 */}
-          <div className="rounded-[16px] w-[315px] h-[470px] bg-[var(--color-card-bg)] border-2 border-[var(--color-border)] p-3 flex flex-col h-full">
+          <div className="rounded-[16px] w-full md:w-[315px] mx-auto max-w-[315px] h-[470px] bg-[var(--color-card-bg)] border-2 border-[var(--color-border)] p-3 flex flex-col h-full">
             {/* Header */}
 
             {/* Content */}
