@@ -51,7 +51,7 @@ export function ThemeToggle() {
   };
 
   return (
-    <div className='w-[64px] h-[40px] mx-1 border-[var(--color-border)] bg-[var(--color-bg-secondary)] rounded-[12px] flex items-center justify-center' >
+    <div className='w-[64px] h-[40px] border-[1px] mx-1 border-[var(--color-border)] bg-[var(--color-bg-secondary)] rounded-[12px] flex items-center justify-center' >
       <button
         onClick={toggleDark}
         className="bg-[var(--color-bg-secondary)] rounded-[12px] transition-colors hover:opacity-80"
@@ -67,7 +67,7 @@ export function ThemeToggle() {
         className="bg-[var(--color-bg-secondary)] rounded-[12px] transition-colors hover:opacity-80"
         aria-label="Toggle theme"
       >
-        <div className={`flex items-center justify-center w-[26px] h-[26px] p-1 rounded-[6px] transition-all ${isDark ? 'bg-[#1a1a1a]' : 'bg-[#E5E5E5FF]'
+        <div className={`flex items-center justify-center w-[26px] h-[26px] p-1 rounded-[6px] transition-all ${isDark ? 'bg-black' : 'bg-[#E5E5E5FF]'
           }`}>
           <Sun size={16} style={{ fill: `${isDark ? '#F4F4F5FF' : '#171A1FFF'}` }} />
         </div>
