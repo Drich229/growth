@@ -3,7 +3,7 @@
 export function Hero() {
   return (
     <section className="max-w-7xl bg-[var(--color-bg-secondary)] mx-auto px-6 mt-[160px] pb-10 text-center">
-      <h1 style={{ lineHeight: '72px' }} className="text-[60px] w-[990px] lg:w-[1093px] mx-auto font-bold mb-7">
+      <h1 style={{ lineHeight: '72px' }} className="text-[60px] w-[300px] lg:w-[1093px] mx-auto font-bold mb-7">
         <span className="text-[var(--color-primary)]">Accélérez votre croissance</span>
         {' '}
         <span className="text-[var(--color-hero-text)]">sans embaucher 10 personnes</span>
@@ -13,7 +13,7 @@ export function Hero() {
         Maximisez votre chiffre d'affaires avec des outils dotés d'intelligence artificielle, qui automatisent l'acquisition, les ventes et la gestion de la relation client pour une croissance sans effort.
       </p>
 
-      <div className="flex flex-col sm:flex-row items-center lg:mt-[95px] justify-center gap-3">
+      <div className="flex flex-col sm:flex-row items-center lg:mt-[86px] justify-center gap-3">
         <button className="px-8 py-3 w-[337px] h-[50px] bg-[var(--color-primary)] text-white font-semibold rounded-[16px] hover:bg-[var(--color-primary-dark)] transition-colors">
           Découvrir nos offres →
         </button>
