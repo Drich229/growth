@@ -57,7 +57,7 @@ export function AffiliationSection() {
           <div className="rounded-[16px] w-full md:w-[315px] mx-auto max-w-[315px] h-[520px] bg-[var(--color-card-bg)] border-2 border-[var(--color-border)] p-3 flex flex-col">
             {/* Header */}
             <div className='border-[var(--color-border)] h-[239px] w-[291px] bg-white border-2 rounded-2xl mb-6'>
-              <div className="p-5 pb-2 border-[var(--color-border)] mb-6">
+              <div className="p-5 pb-2 border-b-1 border-[var(--color-border)] mb-6">
                 <p className="text-[16px] font-bold text-[#003366] tracking-widest uppercase">Growth Affiliation</p>
               </div>
 
@@ -66,7 +66,7 @@ export function AffiliationSection() {
                 <button className="w-[270px] h-[40px] py-3 px-2 mx-auto rounded-[14px] bg-[#2D2D2D] text-white text-[12px] font-bold hover:bg-[#1a1a1a] transition flex items-center justify-center gap-2">
                   <Share2 size={18} /> Partager mon lien de parrainage
                 </button>
-                <button className="w-[270px] h-[40px] py-3 px-2 mx-auto rounded-[14px] border-2 border-black text-black text-[12px] font-bold hover:bg-[#F0F5FF] transition flex items-center justify-center gap-2">
+                <button className="w-[270px] h-[40px] py-3 px-2 mx-auto rounded-[14px] border-1 border-black text-black text-[12px] font-bold hover:bg-[#F0F5FF] transition flex items-center justify-center gap-2">
                   🔗 Inviter des amis
                 </button>
               </div>
