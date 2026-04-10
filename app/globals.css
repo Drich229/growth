@@ -48,11 +48,13 @@ body {
   --color-text-media: #211E23FF;
   --color-text-media-2: rgb(145, 149, 158);
   --color-text-footer: #565D6DFF;
+  --color-border-sol: #E5E5E5FF;
 }
 
 /* Dark mode */
 html.dark {
   --color-text-footer: #A1A1AAFF;
+  --color-border-sol: #27272AFF;
   --color-text-media-2: #A1A1AAFF;
   --color-text-media: #FFFFFF;
   --color-border-feat: #3F3F46FF;
