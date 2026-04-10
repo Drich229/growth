@@ -56,7 +56,7 @@ export function SocialMediaSection() {
           {socialMedias.map((social) => (
             <div
               key={social.id}
-              className="flex flex-col p-0 h-[480px] lg:h-[297px] lg:w-[580px] rounded-[16px] bg-[var(--color-bg-media)] transition-all duration-300"
+              className="flex flex-col p-0 h-[520px] lg:h-[297px] lg:w-[580px] rounded-[16px] bg-[var(--color-bg-media)] transition-all duration-300"
             >
 
               {/* Top */}
