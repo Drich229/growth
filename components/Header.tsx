@@ -15,7 +15,7 @@ export function Header() {
         <div className="text-[20px] leading-[20px] font-bold lg:absolute lg:left-[100px] text-[var(--color-text)]">GROWTH</div>
 
         {/* Desktop Menu */}
-        <div className="hidden lg:flex lg:absolute lg:top-[21px] lg:left-[330px] lg:w-[383px] lg:h-[26px] items-center text-[14px] leading-[22px] font-normal opacity-100">
+        <div className="hidden lg:flex lg:absolute lg:top-[21px] lg:left-[280px] lg:w-[383px] lg:h-[26px] items-center text-[14px] leading-[22px] font-normal opacity-100">
           <Link href="#" className="flex items-center justify-center whitespace-nowrap bg-transparent rounded-none py-[2px] px-[15px] text-[16px] leading-[26px] font-normal text-[var(--color-neutral-text)] dark:text-[var(--color-text)] hover:text-[var(--color-primary)] hover:font-bold transition-all">
             Accueil
           </Link>
