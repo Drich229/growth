@@ -60,7 +60,7 @@ export function FeaturesSection() {
         </div>
 
         {/* Features Grid */}
-        <div className="lg:mx-auto grid grid-cols-1 lg:w-[1150px] md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="lg:mx-auto grid grid-cols-1 max-w-full lg:w-[1150px] md:grid-cols-2 lg:grid-cols-3 gap-6">
           {/* Marketing Card - Large */}
           <div className={`${features[0].large ? 'md:row-span-2 lg:col-span-1' : ''} bg-[var(--color-card-bg)] w-[350px] h-[459px] rounded-[16px] p-5 border border-[var(--color-border-feat)]`}>
             <div className="flex items-center justify-center w-[62px] h-[62px] bg-[var(--color-primary)] rounded-[12px] mb-8">
