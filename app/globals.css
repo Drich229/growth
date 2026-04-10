@@ -42,15 +42,17 @@ body {
   --color-bg-feature: #F8F9FAFF;
   --color-bg-media: rgb(247, 250, 250);
   --color-bg-small: #fcf2e6;
-  --color-bg-faq: rgb(252, 247, 247);
+  --color-bg-faq: rgb(219, 219, 221);
   --color-hero-text: #323743FF;
   --color-hero-text-2: #171A1FFF;
   --color-text-media: #211E23FF;
   --color-text-media-2: rgb(145, 149, 158);
+  --color-text-footer: #565D6DFF;
 }
 
 /* Dark mode */
 html.dark {
+  --color-text-footer: #A1A1AAFF;
   --color-text-media-2: #A1A1AAFF;
   --color-text-media: #FFFFFF;
   --color-border-feat: #3F3F46FF;

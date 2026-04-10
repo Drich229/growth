@@ -4,7 +4,7 @@ import { useState } from 'react';
 const faqItems = [
   {
     question: 'Combien ça coûte ?',
-    answer: 'Nous proposons plusieurs plans flexibles adaptés aux besoins de tous les volumes : starter, pro, et entreprise. Les tarifs démarrent à 49 €/mois, avec réduction annuelle.'
+    answer: 'Eu laborum sunt quis amet officia ad velit quis laboris ipsum sit laboris. Tempor tempor et quis laboris duis adipisicing est laboris. Magna labore id Lorem non ad adipisicing veniam proident.Nisi consequat exercitation culpa do commodo ut est qui minim sunt esse dolor.'
   },
   {
     question: 'Combien de demandes/mois ?',
@@ -32,7 +32,7 @@ export function FaqSection() {
       <div className="max-w-7xl mx-auto px-6">
         <div className="text-center mb-10">
           <h2 className="lg:text-[48px] text-2xl lg:w-[1172px] lg:ml-5 font-bold text-[var(--color-text)]">Questions fréquemment posées</h2>
-          <p className="mt-2 text-lg font-semibold text-[var(--color-text-light)]">Tout ce que vous devez savoir pour démarrer sereinement.</p>
+          <p style={{ fontWeight: 400 }} className="mt-2 text-lg text-[var(--color-text-light)]">Tout ce que vous devez savoir pour démarrer sereinement.</p>
         </div>
 
         <div className="space-y-4">
@@ -44,11 +44,15 @@ export function FaqSection() {
                   onClick={() => setOpenIndex(isOpen ? null : index)}
                   className="w-full text-left px-6 py-5 flex items-center justify-between gap-4"
                 >
-                  <span className="text-lg font-semibold text-[var(--color-text)]">{item.question}</span>
-                  <span className="text-2xl font-bold text-[var(--color-primary)]">{isOpen ? '−' : '+'}</span>
+                  <span className={`text-[16px] transition-colors ${isOpen ? 'text-[var(--color-text)]' : 'text-[var(--color-neutral-text)]'}`}>
+                    {item.question}
+                  </span>
+                  <span style={!isOpen ? { fontWeight: 200 } : { fontWeight: 700 }} className={`text-2xl transition-colors text-[var(--color-neutral-text)]`}>
+                    {isOpen ? '−' : '+'}
+                  </span>
                 </button>
                 {isOpen && (
-                  <div className="px-6 pb-5 text-[var(--color-text-light)] leading-relaxed">
+                  <div style={{ fontWeight: 400 }} className="px-6 pb-5 text-[14px] text-[var(--color-neutral-text)] leading-[24px] lg:w-[75%]">
                     {item.answer}
                   </div>
                 )}

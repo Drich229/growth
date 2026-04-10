@@ -1,6 +1,6 @@
 
-import {FaFacebook, FaInstagram} from 'react-icons/fa';
-import {FaLinkedin, FaTwitter} from 'react-icons/fa';
+import { FaFacebook, FaInstagram } from 'react-icons/fa';
+import { FaLinkedin, FaTwitter } from 'react-icons/fa';
 
 const Facebook = FaFacebook;
 const Instagram = FaInstagram;
@@ -13,41 +13,41 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* Logo */}
           <div>
-            <h3 className="text-2xl font-bold text-[var(--color-text)]">GROWTH</h3>
+            <h3 className="text-2xl font-bold text-[var(--color-neutral-text)]">GROWTH</h3>
 
-             {/* Réseaux Sociaux */}
-        <div className="mt-8 flex space-x-4">
-          <a href="#" className="text-[var(--color-text)] hover:text-[(--color-primary)]">
-            <Facebook className="w-5 h-5" />
-          </a>
-          <a href="#" className="text-[var(--color-text)] hover:text-[(--color-primary)]">
-            <Instagram className="w-5 h-5" />
-          </a>
-          <a href="#" className="text-[var(--color-text)] hover:text-[(--color-primary)]">
-            <Linkedin className="w-5 h-5" />
-          </a>
-          <a href="#" className="text-[var(--color-text)] hover:text-[(--color-primary)]">
-            <Twitter className="w-5 h-5" />
-          </a>
-        </div>
+            {/* Réseaux Sociaux */}
+            <div className="mt-8 flex space-x-4">
+              <a href="#" className="text-[var(--color-text-footer)] hover:text-[(--color-primary)]">
+                <Facebook className="w-5 h-5" />
+              </a>
+              <a href="#" className="text-[var(--color-text-footer)] hover:text-[(--color-primary)]">
+                <Instagram className="w-5 h-5" />
+              </a>
+              <a href="#" className="text-[var(--color-text-footer)] hover:text-[(--color-primary)]">
+                <Linkedin className="w-5 h-5" />
+              </a>
+              <a href="#" className="text-[var(--color-text-footer)] hover:text-[(--color-primary)]">
+                <Twitter className="w-5 h-5" />
+              </a>
+            </div>
           </div>
 
           {/* Liens utiles */}
           <div>
-            <h4 className="text-lg font-bold mb-4 text-[var(--color-text)]">Liens utiles</h4>
+            <h4 className="text-lg font-bold mb-4 text-[var(--color-neutral-text)]">Liens utiles</h4>
             <ul className="space-y-2">
               <li>
-                <a href="#" className="text-[var(--color-text)] hover:text-[(--color-primary)]">
+                <a href="#" className="text-[var(--color-text-footer)] hover:text-[(--color-primary)]">
                   Qui sommes nous
                 </a>
               </li>
               <li>
-                <a href="#" className="text-[var(--color-text)] hover:text-[(--color-primary)]">
+                <a href="#" className="text-[var(--color-text-footer)] hover:text-[(--color-primary)]">
                   Nos offres
                 </a>
               </li>
               <li>
-                <a href="#" className="text-[var(--color-text)] hover:text-[(--color-primary)]">
+                <a href="#" className="text-[var(--color-text-footer)] hover:text-[(--color-primary)]">
                   Programme d'affiliation
                 </a>
               </li>
@@ -56,15 +56,15 @@ const Footer = () => {
 
           {/* Ressources */}
           <div>
-            <h4 className="text-lg font-bold mb-4 text-[var(--color-text)]">Ressources</h4>
+            <h4 className="text-lg font-bold mb-4 text-[var(--color-neutral-text)]">Ressources</h4>
             <ul className="space-y-2">
               <li>
-                <a href="#" className="text-[var(--color-text)] hover:text-[(--color-primary)]">
+                <a href="#" className="text-[var(--color-text-footer)] hover:text-[(--color-primary)]">
                   Centre d'aide
                 </a>
               </li>
               <li>
-                <a href="#" className="text-[var(--color-text)] hover:text-[(--color-primary)]">
+                <a href="#" className="text-[var(--color-text-footer)] hover:text-[(--color-primary)]">
                   FAQ
                 </a>
               </li>
@@ -73,15 +73,15 @@ const Footer = () => {
 
           {/* Légal */}
           <div>
-            <h4 className="text-lg font-bold mb-4 text-[var(--color-text)]">Légal</h4>
+            <h4 className="text-lg font-bold mb-4 text-[var(--color-neutral-text)]">Légal</h4>
             <ul className="space-y-2">
               <li>
-                <a href="#" className="text-[var(--color-text)] hover:text-[(--color-primary)]">
+                <a href="#" className="text-[var(--color-text-footer)] hover:text-[(--color-primary)]">
                   Politique de confidentialité
                 </a>
               </li>
               <li>
-                <a href="#" className="text-[var(--color-text)] hover:text-[(--color-primary)]">
+                <a href="#" className="text-[var(--color-text-footer)] hover:text-[(--color-primary)]">
                   Terme et service
                 </a>
               </li>
@@ -89,10 +89,10 @@ const Footer = () => {
           </div>
         </div>
 
-       
+
 
         {/* Copyright */}
-        <div className="mt-8 pt-8 border-t border-[var(--color-border)] text-center text-[var(--color-text)]">
+        <div className="mt-8 text-[12px] pt-8 border-t border-[var(--color-border)] text-center text-[var(--color-text-footer)]">
           <p>© 2026 - Growth. Tous droits réservés.</p>
         </div>
       </div>
