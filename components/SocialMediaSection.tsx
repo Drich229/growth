@@ -47,7 +47,7 @@ export function SocialMediaSection() {
       <div className="max-w-7xl mx-auto px-6">
 
         {/* Header */}
-        <h2 className="text-[48px] font-bold text-[var(--color-neutral-text)] text-center mb-[80px]">
+        <h2 className="text-[48px] font-bold text-[var(--color-text)] text-center mb-[80px]">
           Présent là où vos clients sont
         </h2>
 

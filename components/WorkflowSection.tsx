@@ -20,7 +20,7 @@ export function WorkflowSection() {
               fontSize: '20px',
               fontWeight: 500,
               lineHeight: '29px',
-            }} className="lg:ml-10 lg:h-[58px] mt-4 lg:w-[661px] md:text-xl text-[var(--color-neutral-text)] ">
+            }} className="lg:ml-10 lg:h-[58px] mt-4 lg:w-[661px] md:text-xl text-[var(--color-text)] ">
               Chez Growth, vous choisissez votre niveau d’implication. Gérez tout vous-même ou déléguez l’exécution à notre équipe.
             </p>
           </div>
