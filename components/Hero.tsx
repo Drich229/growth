@@ -3,7 +3,7 @@
 export function Hero() {
   return (
     <section className="max-w-7xl bg-[var(--color-bg-secondary)] mx-auto px-6 mt-[160px] pb-10 text-center">
-      <h1 style={{ lineHeight: '72px' }} className="text-[60px] lg:w-[1050px] mx-auto font-bold mb-7">
+      <h1 style={{ lineHeight: '72px' }} className="text-[60px] lg:w-[1093px] mx-auto font-bold mb-7">
         <span className="text-[var(--color-primary)]">Accélérez votre croissance</span>
         {' '}
         <span className="text-[var(--color-hero-text)]">sans embaucher 10 personnes</span>
