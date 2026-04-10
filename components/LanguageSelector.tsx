@@ -17,7 +17,7 @@ export function LanguageSelector() {
     setIsOpen(false);
   };
   return (
-    <div className="relative flex flex-col mr-7 min-w-[149px] w-max">
+    <div className="relative flex flex-col mr-5 min-w-[149px] w-max">
       <button
         onClick={() => setIsOpen(!isOpen)}
         className={`flex items-center justify-between gap-[8px] w-full h-[40px] px-[16px] rounded-[16px] text-[14px] leading-[22px] font-normal whitespace-nowrap transition-colors ${isOpen ? 'bg-[#FFDCB4] text-[#944F00] font-bold' : 'bg-transparent text-[var(--color-neutral-text)]'
