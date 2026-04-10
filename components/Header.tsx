@@ -52,7 +52,7 @@ export function Header() {
 
       {/* Mobile Menu */}
       {isOpen && (
-        <div className="lg:hidden bg-[var(--color-bg-secondary)] border-t border-[var(--color-border)] px-6 py-4 space-y-4">
+        <div className="lg:hidden bg-[var(--color-bg-secondary)] border-t border-[var(--color-border)] px-6 py-4 space-y-4 w-full overflow-x-hidden">
           <Link href="#" className="block text-[var(--color-text)] hover:text-[var(--color-primary)]">
             Accueil
           </Link>

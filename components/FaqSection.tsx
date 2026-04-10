@@ -44,7 +44,7 @@ export function FaqSection() {
                   onClick={() => setOpenIndex(isOpen ? null : index)}
                   className="w-full text-left px-6 py-5 flex items-center justify-between gap-4"
                 >
-                  <span className={`text-[16px] transition-colors ${isOpen ? 'text-[var(--color-text)]' : 'text-[var(--color-neutral-text)]'}`}>
+                  <span className={`text-[16px] transition-colors font-semibold text-[var(--color-neutral-text)]`}>
                     {item.question}
                   </span>
                   <span style={!isOpen ? { fontWeight: 200 } : { fontWeight: 700 }} className={`text-2xl transition-colors text-[var(--color-neutral-text)]`}>
