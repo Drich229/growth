@@ -51,7 +51,7 @@ export function ThemeToggle() {
   };
 
   return (
-    <div className='w-[64px] h-[40px] border-1 mx-1 border-neutral-300 bg-[var(--color-bg-secondary)] rounded-[12px] flex items-center justify-center' >
+    <div className='w-[64px] h-[40px] mx-1 border-[var(--color-border)] bg-[var(--color-bg-secondary)] rounded-[12px] flex items-center justify-center' >
       <button
         onClick={toggleDark}
         className="bg-[var(--color-bg-secondary)] rounded-[12px] transition-colors hover:opacity-80"
