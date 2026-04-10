@@ -57,7 +57,7 @@ export function AffiliationSection() {
           <div className="rounded-[16px] w-full md:w-[315px] mx-auto max-w-[315px] h-[520px] bg-[var(--color-card-bg)] border-2 border-[var(--color-border)] p-3 flex flex-col">
             {/* Header */}
             <div className='border-[var(--color-border)] h-[239px] w-[291px] bg-white border-2 rounded-2xl mb-6'>
-              <div className="p-5 pb-2 border-b border-[var(--color-border)] mb-6">
+              <div className="p-5 pb-2 border-b-[0.5px] border-[var(--color-border)] mb-6">
                 <p className="text-[16px] font-bold text-[#003366] tracking-widest uppercase">Growth Affiliation</p>
               </div>
 
@@ -128,7 +128,7 @@ export function AffiliationSection() {
             {/* Header */}
 
             {/* Content */}
-            <div className="space-y-4 lg:h-[247px] h-[300px] bg-[var(--color-bg-head)]  border-[var(--color-border-head)] rounded-2xl pb-23 p-4">
+            <div className="space-y-4 lg:h-[247px] h-[300px] bg-[var(--color-bg-head)] border  border-[var(--color-border-head)] rounded-2xl pb-23 p-4">
               <div className="rounded-2xl mx-auto w-[130px] lg:w-[230px] border border-[var(--color-border)] bg-white px-4 py-3 flex items-center gap-3">
                 <div className="w-10 h-10 rounded-full bg-[#BBFFCC] flex items-center justify-center text-[#008A4B] text-xl font-bold">$</div>
                 <div>
