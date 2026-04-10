@@ -15,7 +15,7 @@ export function Header() {
         <div className="text-[20px] leading-[20px] font-bold lg:absolute lg:left-[100px] text-[var(--color-text)]">GROWTH</div>
 
         {/* Desktop Menu */}
-        <div className="hidden lg:flex lg:absolute lg:top-[21px] lg:left-[430px] lg:w-[383px] lg:h-[26px] items-center text-[14px] leading-[22px] font-normal opacity-100">
+        <div className="hidden lg:flex lg:absolute lg:top-[21px] lg:left-[380px] lg:w-[383px] lg:h-[26px] items-center text-[14px] leading-[22px] font-normal opacity-100">
           <Link href="#" className="flex items-center justify-center whitespace-nowrap bg-transparent rounded-none py-[2px] px-[15px] text-[16px] leading-[26px] font-normal text-[var(--color-neutral-text)] dark:text-[var(--color-text)] hover:text-[var(--color-primary)] hover:font-bold transition-all">
             Accueil
           </Link>
@@ -30,7 +30,7 @@ export function Header() {
           </Link>
         </div>
 
-        <div className="hidden lg:flex lg:absolute lg:right-[90px] items-center gap-2">
+        <div className="hidden lg:flex lg:absolute lg:right-[70px] items-center gap-2">
           <div><LanguageSelector /></div>
           <button className="flex font-semibold items-center justify-center gap-[6px] w-[247px] h-[40px] px-[12px] text-[14px] leading-[22px] text-white bg-[var(--color-primary)] border-none rounded-[12px] shadow-[0px_0px_1px_#171a1f12,_0px_0px_2px_#171a1f1F] hover:bg-[#E47A00] hover:text-white active:bg-[#C96B00] active:text-white disabled:opacity-40 transition-colors">
             Découvrir nos offres →
