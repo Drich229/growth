@@ -18,6 +18,7 @@ body {
   --color-text: #171717;
   --color-text-light: #666666;
   --color-border: #e0e0e0;
+  --color-border-aff: #e0e0e0;
   --color-inpu-bg: #ffffff;
   --color-card-bg: #ffffff;
   --color-inp-bg: #F8F9FAFF;
@@ -80,6 +81,7 @@ html.dark {
   --color-text-light: #999999;
   --color-inpu-bg: #18181BFF;
   --color-border: #333333;
+  --color-border-aff: #e0e0e0;
   --color-card-bg: #1a1a1a;
   --color-input-bg: #e9e6e6;
   --color-inp-bg: #27272AFF;
