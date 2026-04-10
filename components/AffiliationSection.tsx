@@ -56,7 +56,7 @@ export function AffiliationSection() {
           {/* Step 1 */}
           <div className="rounded-[16px] w-full md:w-[315px] mx-auto max-w-[315px] h-[520px] bg-[var(--color-card-bg)] border-2 border-[var(--color-border)] p-3 flex flex-col">
             {/* Header */}
-            <div className='h-[239px] w-[291px] bg-white border-2 rounded-2xl mb-6'>
+            <div className='h-[239px] w-[291px] bg-white border rounded-2xl mb-6'>
               <div className="p-5 pb-2 border-b border-[var(--color-border-aff)] mb-6">
                 <p className="text-[16px] font-bold text-[#003366] tracking-widest uppercase">Growth Affiliation</p>
               </div>
