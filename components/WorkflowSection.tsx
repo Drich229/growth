@@ -26,7 +26,7 @@ export function WorkflowSection() {
           </div>
         </div>
 
-        <div className="grid lg:w-[1050px] mx-auto grid-cols-1 lg:grid-cols-2 gap-1 mb-10">
+        <div className="grid w-[1050px] mx-auto grid-cols-1 lg:grid-cols-2 gap-1 mb-10">
           <article className="rounded-[16px] w-[496px] bg-[var(--color-card-bg)] border border-[var(--color-border)] p-8">
             <div className="flex justify-between gap-4 mb-4">
               <div className="w-11 h-11 rounded-xl bg-[#FF9800] flex items-center justify-center text-white">
