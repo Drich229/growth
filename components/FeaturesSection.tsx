@@ -72,7 +72,7 @@ export function FeaturesSection() {
             <h3 className="text-3xl font-bold text-[var(--color-text)] mb-4">
               {features[0].title}
             </h3>
-            <p className="text-[18px] mb-6 w-[309px] h-[49px]">
+            <p className="text-[18px] mb-6 lg:w-[309px] lg:h-[49px]">
               <span className="font-bold text-[var(--color-neutral-text)]">{features[0].stat}</span>
               <span className="text-[var(--color-neutral-text)]">, {features[0].description}</span>
             </p>
@@ -98,7 +98,7 @@ export function FeaturesSection() {
             <h3 className="text-[20px] font-bold text-[var(--color-neutral-text)] mb-2">
               {features[1].title}
             </h3>
-            <p className="text-[16px] w-[316px]">
+            <p className="text-[16px] lg:w-[316px]">
               <span className="font-bold text-[var(--color-neutral-text)]">{features[1].stat}</span>
               <span className="text-[var(--color-neutral-text)]"> {features[1].description}</span>
             </p>
@@ -112,7 +112,7 @@ export function FeaturesSection() {
             <h3 className="text-[20px] font-bold text-[var(--color-neutral-text)] mb-2">
               {features[2].title}
             </h3>
-            <p className="text-[16px] w-[273px] h-[46px] text-[var(--color-neutral-text)]">
+            <p className="text-[16px] lg:w-[273px] lg:h-[46px] text-[var(--color-neutral-text)]">
               {features[2].description}
             </p>
           </div>
@@ -125,7 +125,7 @@ export function FeaturesSection() {
             <h3 className="text-[20px] font-bold text-[var(--color-neutral-text)] mb-2">
               {features[3].title}
             </h3>
-            <p className="text-[16px] w-[310px] h-[29px] text-[var(--color-neutral-text)]">
+            <p className="text-[16px] lg:w-[310px] lg:h-[29px] text-[var(--color-neutral-text)]">
               {features[3].description}
             </p>
           </div>
@@ -138,7 +138,7 @@ export function FeaturesSection() {
             <h3 className="text-[20px] font-bold text-[var(--color-neutral-text)] mb-2">
               {features[4].title}
             </h3>
-            <p className="text-[16px] w-[283px] h-[46px] text-[var(--color-neutral-text)]">
+            <p className="text-[16px] lg:w-[283px] lg:h-[46px] text-[var(--color-neutral-text)]">
               {features[4].description}
             </p>
           </div>
