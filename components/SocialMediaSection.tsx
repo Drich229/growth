@@ -52,7 +52,7 @@ export function SocialMediaSection() {
         </h2>
 
         {/* Grid */}
-        <div className="grid lg:w-[1176px] grid-cols-1 md:grid-cols-2 gap-8">
+        <div className="grid lg:w-[1176px] mx-auto grid-cols-1 md:grid-cols-2 gap-8">
           {socialMedias.map((social) => (
             <div
               key={social.id}
