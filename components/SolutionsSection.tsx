@@ -50,12 +50,12 @@ export function SolutionsSection() {
           {solutions.map((solution) => (
             <div
               key={solution.id}
-              className="flex flex-col items-center border border-color-[var(--color-border-sol)] text-center p-1 rounded-2xl bg-[var(--color-card-bg)] transition-all duration-300"
+              className="flex flex-col items-center border border-[var(--color-border-sol)] text-center p-1 rounded-[16px] bg-[var(--color-card-bg)] transition-all duration-300"
             >
 
               {/* Icon */}
               <div
-                className="flex items-center justify-center w-full py-14 rounded-2xl mb-6"
+                className="flex items-center justify-center w-full py-14 rounded-[16px] mb-6"
                 style={{ backgroundColor: solution.bg }}
               >
                 <Image
