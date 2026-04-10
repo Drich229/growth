@@ -62,7 +62,7 @@ export function FeaturesSection() {
         {/* Features Grid */}
         <div className="lg:mx-auto grid grid-cols-1 max-w-full lg:w-[1150px] md:grid-cols-2 lg:grid-cols-3 gap-6">
           {/* Marketing Card - Large */}
-          <div className={`${features[0].large ? 'md:row-span-2 lg:col-span-1' : ''} bg-[var(--color-card-bg)] w-[350px] h-[459px] rounded-[16px] p-5 border border-[var(--color-border-feat)]`}>
+          <div className={`${features[0].large ? 'md:row-span-2 lg:col-span-1' : ''} bg-[var(--color-card-bg)] lg:w-[350px] lg:h-[459px] rounded-[16px] p-5 border border-[var(--color-border-feat)]`}>
             <div className="flex items-center justify-center w-[62px] h-[62px] bg-[var(--color-primary)] rounded-[12px] mb-8">
               <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-white">
                 <path d="M3 8.5h4.5L18 4v16L7.5 15.5H3v-7z" />
@@ -91,7 +91,7 @@ export function FeaturesSection() {
           </div>
 
           {/* Ventes Card */}
-          <div className="bg-[var(--color-card-bg)] w-[360px] h-[220px] rounded-[16px] p-8 border border-[var(--color-border-feat)]">
+          <div className="bg-[var(--color-card-bg)] lg:w-[360px] lg:h-[220px] rounded-[16px] p-8 border border-[var(--color-border-feat)]">
             <div className="flex items-center justify-center w-[48px] h-[48px] bg-[var(--color-primary)] rounded-[12px] mb-6">
               <ShoppingCart size={24} className="text-white" />
             </div>
@@ -105,7 +105,7 @@ export function FeaturesSection() {
           </div>
 
           {/* Service après-vente Card */}
-          <div className="bg-[var(--color-card-bg)] w-[360px] h-[220px] rounded-[16px] p-8 border border-[var(--color-border-feat)]">
+          <div className="bg-[var(--color-card-bg)] lg:w-[360px] lg:h-[220px] rounded-[16px] p-8 border border-[var(--color-border-feat)]">
             <div className="flex items-center justify-center w-[48px] h-[48px] bg-[var(--color-primary)] rounded-[12px] mb-6">
               <HeartHandshake size={24} className="text-white" />
             </div>
@@ -118,7 +118,7 @@ export function FeaturesSection() {
           </div>
 
           {/* Service client Card */}
-          <div className="bg-[var(--color-card-bg)] w-[360px] h-[220px] rounded-[16px] p-8 border border-[var(--color-border-feat)]">
+          <div className="bg-[var(--color-card-bg)] lg:w-[360px] lg:h-[220px] rounded-[16px] p-8 border border-[var(--color-border-feat)]">
             <div className="flex items-center justify-center w-[48px] h-[48px] bg-[var(--color-primary)] rounded-[12px] mb-6">
               <Heart size={24} className="text-white" />
             </div>
@@ -131,7 +131,7 @@ export function FeaturesSection() {
           </div>
 
           {/* Intelligence artificielle Card */}
-          <div className="bg-[var(--color-card-bg)] w-[360px] h-[220px] rounded-[16px] p-8 border border-[var(--color-border-feat)] ">
+          <div className="bg-[var(--color-card-bg)] lg:w-[360px] lg:h-[220px] rounded-[16px] p-8 border border-[var(--color-border-feat)] ">
             <div className="flex items-center justify-center w-[48px] h-[48px] bg-[var(--color-primary)] rounded-[12px] mb-6">
               <Bot size={24} className="text-white" />
             </div>
