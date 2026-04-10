@@ -74,8 +74,8 @@ export function AffiliationSection() {
 
             {/* Content Bottom */}
             <div className="pt-4">
-              <h3 className="text-4xl font-black text-[var(--color-text)] mb-4">01</h3>
-              <p className="text-[24px] leading-[32px] font-semibold text-[var(--color-neutral-text)] mb-3">Vous recommandez Growth</p>
+              <h3 className="text-4xl font-black text-[var(--color-neutral-text)] mb-4">01</h3>
+              <p className="text-[24px] leading-[32px] font-semibold text-[var(--color-text)] mb-3">Vous recommandez Growth</p>
               <p style={{ fontWeight: 400 }} className="text-[14px] w-[226px] leading-[24px] text-[var(--color-neutral-text)]">
                 Partagez votre lien d'affiliation à votre audience, vos clients ou votre réseau.
               </p>
@@ -85,7 +85,7 @@ export function AffiliationSection() {
           {/* Step 2 */}
           <div className="rounded-[16px] w-full md:w-[315px] mx-auto max-w-[315px] h-[506px] bg-[var(--color-card-bg)] border-2 border-[var(--color-border)] p-4 flex flex-col h-full">
             <div className="flex items-start justify-between mb-2">
-              <h3 className="text-4xl font-bold text-[var(--color-text)]">02</h3>
+              <h3 className="text-4xl font-bold text-[var(--color-neutral-text)]">02</h3>
             </div>
             <p className="text-[24px] leading-[32px] w-[235px] font-semibold text-[var(--color-text)] mb-3">Ils utilisent Growth</p>
             <p style={{ fontWeight: 400 }} className="text-[14px] w-[242px] leading-[24px] text-[var(--color-neutral-text)] mb-4">
@@ -144,8 +144,8 @@ export function AffiliationSection() {
 
             {/* Bottom Content */}
             <div className="pt-7">
-              <h3 className="text-4xl font-black text-[var(--color-text)] mb-4">03</h3>
-              <p className="text-[24px] font-semibold text-[var(--color-neutral-text)] mb-3">Vous gagnez</p>
+              <h3 className="text-4xl font-black text-[var(--color-neutral-text)] mb-4">03</h3>
+              <p className="text-[24px] font-semibold text-[var(--color-text)] mb-3">Vous gagnez</p>
               <p style={{ fontWeight: 400 }} className="text-[14px] w-[242px] leading-[24px] text-[var(--color-neutral-text)]">
                 Vous touchez une commission récurrente ou par conversion (selon l'offre)
               </p>
