@@ -62,7 +62,7 @@ export function FeaturesSection() {
         {/* Features Grid */}
         <div className="lg:mx-auto grid grid-cols-1 max-w-full lg:w-[1150px] md:grid-cols-2 lg:grid-cols-3 gap-6">
           {/* Marketing Card - Large */}
-          <div className={`${features[0].large ? 'md:row-span-2 lg:col-span-1' : ''} bg-[var(--color-card-bg)] lg:w-[350px] lg:h-[459px] rounded-[16px] p-5 border border-[var(--color-border-feat)]`}>
+          <div className={`${features[0].large ? 'md:row-span-2 lg:col-span-1' : ''} bg-[var(--color-bg-card-feat)] lg:w-[350px] lg:h-[459px] rounded-[16px] p-5 border border-[var(--color-border-feat)]`}>
             <div className="flex items-center justify-center w-[62px] h-[62px] bg-[var(--color-primary)] rounded-[12px] mb-8">
               <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-white">
                 <path d="M3 8.5h4.5L18 4v16L7.5 15.5H3v-7z" />
@@ -73,8 +73,8 @@ export function FeaturesSection() {
               {features[0].title}
             </h3>
             <p className="text-[18px] mb-6 lg:w-[309px] lg:h-[49px]">
-              <span className="font-bold text-[var(--color-neutral-text)]">{features[0].stat}</span>
-              <span className="text-[var(--color-neutral-text)]">, {features[0].description}</span>
+              <span className="font-bold text-[var(--color-text)]">{features[0].stat}</span>
+              <span style={{ fontWeight: 400 }} className="text-[var(--color-neutral-text)]">, {features[0].description}</span>
             </p>
 
             {/* Divider */}
@@ -83,62 +83,62 @@ export function FeaturesSection() {
             <ul className="space-y-3">
               {features[0].benefits?.map((benefit, idx) => (
                 <li key={idx} className="flex items-start gap-3 text-[16px] text-[var(--color-neutral-text)]">
-                  <span className="text-[var(--color-neutral-text)] font-bold mt-0">•</span>
-                  <span>{benefit}</span>
+                  <span style={{ fontWeight: 400 }} className="text-[var(--color-neutral-text)] font-bold mt-0">•</span>
+                  <span style={{ fontWeight: 400 }} className="text-[var(--color-neutral-text)]">{benefit}</span>
                 </li>
               ))}
             </ul>
           </div>
 
           {/* Ventes Card */}
-          <div className="bg-[var(--color-card-bg)] lg:w-[360px] lg:h-[220px] rounded-[16px] p-8 border border-[var(--color-border-feat)]">
+          <div className="bg-[var(--color-bg-card-feat)] lg:w-[360px] lg:h-[220px] rounded-[16px] p-8 border border-[var(--color-border-feat)]">
             <div className="flex items-center justify-center w-[48px] h-[48px] bg-[var(--color-primary)] rounded-[12px] mb-6">
               <ShoppingCart size={24} className="text-white" />
             </div>
-            <h3 className="text-[20px] font-bold text-[var(--color-neutral-text)] mb-2">
+            <h3 className="text-[20px] font-bold text-[var(--color-text)] mb-2">
               {features[1].title}
             </h3>
             <p className="text-[16px] lg:w-[316px]">
-              <span className="font-bold text-[var(--color-neutral-text)]">{features[1].stat}</span>
-              <span className="text-[var(--color-neutral-text)]"> {features[1].description}</span>
+              <span className="font-bold text-[var(--color-text)]">{features[1].stat}</span>
+              <span style={{ fontWeight: 400 }} className="text-[var(--color-neutral-text)]"> {features[1].description}</span>
             </p>
           </div>
 
           {/* Service après-vente Card */}
-          <div className="bg-[var(--color-card-bg)] lg:w-[360px] lg:h-[220px] rounded-[16px] p-8 border border-[var(--color-border-feat)]">
+          <div className="bg-[var(--color-bg-card-feat)] lg:w-[360px] lg:h-[220px] rounded-[16px] p-8 border border-[var(--color-border-feat)]">
             <div className="flex items-center justify-center w-[48px] h-[48px] bg-[var(--color-primary)] rounded-[12px] mb-6">
               <HeartHandshake size={24} className="text-white" />
             </div>
-            <h3 className="text-[20px] font-bold text-[var(--color-neutral-text)] mb-2">
+            <h3 className="text-[20px] font-bold text-[var(--color-text)] mb-2">
               {features[2].title}
             </h3>
-            <p className="text-[16px] lg:w-[273px] lg:h-[46px] text-[var(--color-neutral-text)]">
+            <p style={{ fontWeight: 400 }} className="text-[16px] lg:w-[273px] lg:h-[46px] text-[var(--color-neutral-text)]">
               {features[2].description}
             </p>
           </div>
 
           {/* Service client Card */}
-          <div className="bg-[var(--color-card-bg)] lg:w-[360px] lg:h-[220px] rounded-[16px] p-8 border border-[var(--color-border-feat)]">
+          <div className="bg-[var(--color-bg-card-feat)] lg:w-[360px] lg:h-[220px] rounded-[16px] p-8 border border-[var(--color-border-feat)]">
             <div className="flex items-center justify-center w-[48px] h-[48px] bg-[var(--color-primary)] rounded-[12px] mb-6">
               <Heart size={24} className="text-white" />
             </div>
-            <h3 className="text-[20px] font-bold text-[var(--color-neutral-text)] mb-2">
+            <h3 className="text-[20px] font-bold text-[var(--color-text)] mb-2">
               {features[3].title}
             </h3>
-            <p className="text-[16px] lg:w-[310px] lg:h-[29px] text-[var(--color-neutral-text)]">
+            <p style={{ fontWeight: 400 }} className="text-[16px] lg:w-[310px] lg:h-[29px] text-[var(--color-neutral-text)]">
               {features[3].description}
             </p>
           </div>
 
           {/* Intelligence artificielle Card */}
-          <div className="bg-[var(--color-card-bg)] lg:w-[360px] lg:h-[220px] rounded-[16px] p-8 border border-[var(--color-border-feat)] ">
+          <div className="bg-[var(--color-bg-card-feat)] lg:w-[360px] lg:h-[220px] rounded-[16px] p-8 border border-[var(--color-border-feat)] ">
             <div className="flex items-center justify-center w-[48px] h-[48px] bg-[var(--color-primary)] rounded-[12px] mb-6">
               <Bot size={24} className="text-white" />
             </div>
-            <h3 className="text-[20px] font-bold text-[var(--color-neutral-text)] mb-2">
+            <h3 className="text-[20px] font-bold text-[var(--color-text)] mb-2">
               {features[4].title}
             </h3>
-            <p className="text-[16px] lg:w-[283px] lg:h-[46px] text-[var(--color-neutral-text)]">
+            <p style={{ fontWeight: 400 }} className="text-[16px] lg:w-[283px] lg:h-[46px] text-[var(--color-neutral-text)]">
               {features[4].description}
             </p>
           </div>

@@ -15,7 +15,7 @@ body {
   --color-border-ld: #DEE1E6FF;
   --color-border-feat: #E5E5E5FF;
   --color-bg-secondary: #ffffff;
-  --color-text: #171717;
+  --color-text: #000000;
   --color-text-light: #666666;
   --color-border: #e0e0e0;
   --color-border-aff: #e0e0e0;
@@ -52,11 +52,14 @@ body {
   --color-border-sol: #E5E5E5FF;
   --color-bg-head: #FFFFFF;
   --color-border-head: #BDC1CAFF;
+  --color-bg-card-feat: #FFFFFF;
+  --color-bg-sol: #FFFFFF
 }
 
 /* Dark mode */
 html.dark {
   --color-text-footer: #A1A1AAFF;
+  --color-bg-card-feat: #27272AFF;
   --color-border-head: #3F3F46FF;
   --color-bg-head: #27272AFF;
   --color-border-sol: #27272AFF;
@@ -74,22 +77,23 @@ html.dark {
   --color-primary: #FF8A00FF;
   --color-primary-dark: #ffb84d;
   --color-bg: #0a0a0a;
-  --color-bg-secondary: #000000;
-  --color-text: #ededed;
+  --color-bg-secondary: #09090BFF;
+  --color-text: #FFFFFF;
   --color-bg-selector: #27272AFF;
   --color-arrow-bg: #252424;
   --color-text-light: #999999;
   --color-inpu-bg: #18181BFF;
   --color-border: #333333;
   --color-border-aff: #e0e0e0;
-  --color-card-bg: #1a1a1a;
+  --color-card-bg: #18181BFF;
   --color-input-bg: #e9e6e6;
   --color-inp-bg: #27272AFF;
-  --color-neutral-text: rgb(167, 167, 170);
-  --icon-kloo-bg: #1E293B;
-  --icon-wachap-bg: #14532D;
-  --icon-aginap-bg: #78350F;
-  --icon-typebot-bg: #3F3F46;
+  --color-neutral-text: #D4D4D8FF;
+  --color-bg-sol: #18181BFF;
+  --icon-kloo-bg: #3348F61A;
+  --icon-wachap-bg: #20B24B1A;
+  --icon-aginap-bg: #FF70341A;
+  --icon-typebot-bg: #1D212880;
   --social-messenger-bg: #1E3A5F;
   --social-messenger-icon-bg: #334155;
 

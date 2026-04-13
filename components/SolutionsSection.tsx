@@ -50,7 +50,7 @@ export function SolutionsSection() {
           {solutions.map((solution) => (
             <div
               key={solution.id}
-              className="flex flex-col items-center border border-[var(--color-border-sol)] text-center p-1 rounded-[16px] bg-[var(--color-card-bg)] transition-all duration-300"
+              className="flex flex-col items-center border border-[var(--color-border-sol)] text-center p-1 rounded-[16px] bg-[var(--color-bg-sol)] transition-all duration-300"
             >
 
               {/* Icon */}
