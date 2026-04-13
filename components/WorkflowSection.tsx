@@ -71,7 +71,7 @@ export function WorkflowSection() {
         </div>
 
         <div className="text-center">
-          <button className="px-8 py-4 h-[50px] w-[368px] rounded-[16px] bg-[var(--color-primary)] text-white font-bold shadow transition hover:brightness-110">
+          <button className="py-[12px] h-[50px] w-[325px] rounded-[16px] bg-[var(--color-primary)] text-white text-center justify-center font-bold shadow transition hover:brightness-110">
             Choisir mon mode d'utilisation →
           </button>
         </div>
