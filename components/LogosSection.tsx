@@ -1,7 +1,7 @@
 'use client';
 
 import Image from 'next/image';
-import { useEffect, useRef } from 'react';
+import { useEffect, useState, useRef } from 'react';
 
 export function LogosSection() {
   const logos = [
@@ -10,6 +10,14 @@ export function LogosSection() {
     { id: 3, src: '/visily-image (2).png', alt: 'Logo partenaire 3' },
     { id: 4, src: '/visily-image.png', alt: 'Logo partenaire 4' },
     { id: 5, src: '/visily-image (2).png', alt: 'Logo partenaire 5' },
+  ];
+
+  const logos_dark = [
+    { id: 1, src: '/visily-image1-d.png', alt: 'Logo partenaire 1' },
+    { id: 2, src: '/visily-image-2d.png', alt: 'Logo partenaire 2' },
+    { id: 3, src: '/visily-image (3)-d.png', alt: 'Logo partenaire 3' },
+    { id: 4, src: '/visily-image-4d.png', alt: 'Logo partenaire 4' },
+    { id: 5, src: '/visily-image-5d.png', alt: 'Logo partenaire 5' },
   ];
 
   const containerRef = useRef<HTMLDivElement>(null);
@@ -38,6 +46,25 @@ export function LogosSection() {
     };
   }, []);
 
+  const [isDark, setIsDark] = useState(false);
+
+  useEffect(() => {
+    const updateTheme = () => {
+      setIsDark(document.documentElement.classList.contains('dark'));
+    };
+
+    updateTheme();
+
+    const observer = new MutationObserver(updateTheme);
+
+    observer.observe(document.documentElement, {
+      attributes: true,
+      attributeFilter: ['class'],
+    });
+
+    return () => observer.disconnect();
+  }, []);
+
   return (
     <section className="w-full border-t border-[var(--color-border)] mx-auto pt-20 py-10 mt-40 bg-[var(--color-bg-secondary)] overflow-hidden">
       <div
@@ -45,10 +72,24 @@ export function LogosSection() {
         className="flex gap-8 whitespace-nowrap"
         style={{ display: 'inline-flex', width: 'max-content' }}
       >
-        {[...logos, ...logos].map((logo, index) => (
+        {isDark ? [...logos_dark, ...logos_dark].map((logo, index) => (
           <div
             key={`${logo.id}-${index}`}
-            className="flex-shrink-0 transition-opacity duration-300 hover:opacity-100 opacity-60 px-2"
+            className="flex-shrink-0 transition-opacity duration-300 hover:opacity-100 px-2"
+          >
+            <Image
+              src={logo.src}
+              alt={logo.alt}
+              width={200}
+              height={39}
+              className="object-contain"
+              priority={true}
+            />
+          </div>
+        )) : [...logos, ...logos].map((logo, index) => (
+          <div
+            key={`${logo.id}-${index}`}
+            className="flex-shrink-0 transition-opacity duration-300 hover:opacity-100 px-2"
           >
             <Image
               src={logo.src}
