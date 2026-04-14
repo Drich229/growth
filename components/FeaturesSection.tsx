@@ -45,7 +45,7 @@ const features = [
 
 export function FeaturesSection() {
   return (
-    <section className="border-b-2 border-[var(--color-border)] w-full bg-[var(--color-bg-feature)] py-16">
+    <section className="border-b border-[var(--color-border)] w-full bg-[var(--color-bg-feature)] py-16">
       <div className="max-w-7xl mx-auto px-6">
         {/* Header */}
         <div className="text-center mb-12">
