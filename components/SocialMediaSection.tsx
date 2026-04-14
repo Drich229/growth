@@ -43,7 +43,7 @@ const socialMedias = [
 
 export function SocialMediaSection() {
   return (
-    <section className="relative overflow-hidden border-b-2 border-[var(--color-border)] w-full bg-[var(--color-bg-secondary)] py-25">
+    <section className="relative overflow-hidden border-b border-[var(--color-border)] w-full bg-[var(--color-bg-secondary)] py-25">
 
       {/* 🔵 Blob haut droite */}
       <div
