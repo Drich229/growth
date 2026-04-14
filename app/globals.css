@@ -17,7 +17,7 @@ body {
   --color-bg-secondary: #ffffff;
   --color-text: #000000;
   --color-text-light: #666666;
-  --color-border: #f7f6f6;
+  --color-border: #EEEEEE;
   --color-border-aff: #e0e0e0;
   --color-inpu-bg: #ffffff;
   --color-card-bg: #ffffff;
@@ -43,7 +43,7 @@ body {
   --color-bg-feature: #F8F9FAFF;
   --color-bg-media: rgb(247, 250, 250);
   --color-bg-small: #fcf2e6;
-  --color-bg-faq: rgb(219, 219, 221);
+  --color-bg-faq: #F4F4F5FF;
   --color-hero-text: #323743FF;
   --color-hero-text-2: #171A1FFF;
   --color-text-media: #211E23FF;
@@ -54,11 +54,13 @@ body {
   --color-border-head: #BDC1CAFF;
   --color-bg-card-feat: #FFFFFF;
   --color-bg-sol: #FFFFFF;
+  --color-text-faq: #11181CFF;
   --color-bg-feat: #F8F9FAFF;
 }
 
 /* Dark mode */
 html.dark {
+  --color-text-faq: #E4E4E7FF;
   --color-bg-feat: #18181BFF;
   --color-text-footer: #A1A1AAFF;
   --color-bg-card-feat: #27272AFF;
@@ -71,7 +73,7 @@ html.dark {
   --color-hero-text: #FFFFFF;
   --color-hero-text-2: rgb(140, 140, 148);
   --color-bg-feature: #18181BFF;
-  --color-bg-faq: rgb(32, 32, 34);
+  --color-bg-faq: #18181BFF;
   --color-bg-small: rgb(48, 30, 9);
   --color-bg-media: rgb(22, 22, 22);
   --color-text-selected: #E4E4E7FF;

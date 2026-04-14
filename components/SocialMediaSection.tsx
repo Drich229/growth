@@ -51,12 +51,12 @@ export function SocialMediaSection() {
         style={{
           background: `
       radial-gradient(circle at center,
-        rgba(191,219,254,0.35) 0%,
-        rgba(147,197,253,0.25) 60%,
-        rgba(125,211,252,0.18) 70%,
-        rgba(255,255,255,0.12) 65%,
-        transparent 80%
-      )
+      rgba(191,219,254,0.50) 0%,
+      rgba(147,197,253,0.40) 40%,
+      rgba(125,211,252,0.30) 60%,
+      rgba(255,255,255,0.20) 70%,
+      transparent 85%
+    )
     `,
           filter: 'blur(120px)'
         }}
@@ -68,12 +68,12 @@ export function SocialMediaSection() {
         style={{
           background: `
       radial-gradient(circle at center,
-        rgba(191,219,254,0.35) 0%,
-        rgba(147,197,253,0.25) 60%,
-        rgba(125,211,252,0.18) 70%,
-        rgba(255,255,255,0.12) 65%,
-        transparent 80%
-      )
+      rgba(191,219,254,0.50) 0%,
+      rgba(147,197,253,0.40) 40%,
+      rgba(125,211,252,0.30) 60%,
+      rgba(255,255,255,0.20) 70%,
+      transparent 85%
+    )
     `,
           filter: 'blur(110px)'
         }}
