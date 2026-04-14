@@ -66,10 +66,10 @@ export function LogosSection() {
   }, []);
 
   return (
-    <section className="w-full border-t border-[var(--color-border)] mx-auto pt-20 py-10 mt-40 bg-[var(--color-bg-secondary)] overflow-hidden">
+    <section className="w-full mx-auto py-10 mt-40 bg-[var(--color-bg-secondary)] overflow-hidden">
       <div
         ref={containerRef}
-        className="flex gap-8 whitespace-nowrap"
+        className="flex pt-20 border-t-2 border-[var(--color-border)] gap-8 whitespace-nowrap"
         style={{ display: 'inline-flex', width: 'max-content' }}
       >
         {isDark ? [...logos_dark, ...logos_dark].map((logo, index) => (

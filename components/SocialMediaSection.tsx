@@ -43,8 +43,43 @@ const socialMedias = [
 
 export function SocialMediaSection() {
   return (
-    <section className="border-b border-[var(--color-border)] pb-[90px] w-full bg-[var(--color-bg-secondary)] mt-[110px]">
-      <div className="max-w-7xl mx-auto px-6">
+    <section className="relative overflow-hidden border-b-2 border-[var(--color-border)] w-full bg-[var(--color-bg-secondary)] py-25">
+
+      {/* 🔵 Blob haut droite */}
+      <div
+        className="absolute top-[-140px] right-[-140px] w-[520px] h-[700px] rounded-full blur-3xl opacity-60 pointer-events-none"
+        style={{
+          background: `
+      radial-gradient(circle at center,
+        rgba(191,219,254,0.35) 0%,
+        rgba(147,197,253,0.25) 60%,
+        rgba(125,211,252,0.18) 70%,
+        rgba(255,255,255,0.12) 65%,
+        transparent 80%
+      )
+    `,
+          filter: 'blur(120px)'
+        }}
+      />
+
+      {/* 🔵 Blob bas gauche */}
+      <div
+        className="absolute bottom-[-140px] left-[-140px] w-[520px] h-[700px] rounded-full blur-3xl opacity-60 pointer-events-none"
+        style={{
+          background: `
+      radial-gradient(circle at center,
+        rgba(191,219,254,0.35) 0%,
+        rgba(147,197,253,0.25) 60%,
+        rgba(125,211,252,0.18) 70%,
+        rgba(255,255,255,0.12) 65%,
+        transparent 80%
+      )
+    `,
+          filter: 'blur(110px)'
+        }}
+      />
+
+      <div className="max-w-7xl mx-auto px-6 relative z-10">
 
         {/* Header */}
         <h2 className="text-[48px] font-bold text-[var(--color-text)] text-center mb-[80px]">

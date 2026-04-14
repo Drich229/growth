@@ -56,7 +56,7 @@ export function AffiliationSection() {
           {/* Step 1 */}
           <div className="rounded-[16px] w-full md:w-[315px] mx-auto max-w-[315px] h-[520px] bg-[var(--color-card-bg)] border-2 border-[var(--color-border)] p-3 flex flex-col">
             {/* Header */}
-            <div className='h-[239px] w-[291px] bg-white border rounded-2xl mb-6'>
+            <div className='h-[239px] w-[291px] bg-white border rounded-2xl'>
               <div className="p-5 pb-2 border-b border-[var(--color-border-aff)] mb-6">
                 <p className="text-[16px] font-bold text-[#003366] tracking-widest uppercase">Growth Affiliation</p>
               </div>
@@ -73,9 +73,9 @@ export function AffiliationSection() {
             </div>
 
             {/* Content Bottom */}
-            <div className="pt-4">
+            <div className="mt-[31px]">
               <h3 className="text-4xl font-black text-[var(--color-neutral-text)] mb-4">01</h3>
-              <p className="text-[24px] leading-[32px] font-semibold text-[var(--color-text)] mb-3">Vous recommandez Growth</p>
+              <p className="text-[24px] leading-[32px] font-semibold text-[var(--color-text)] mt-[12px] mb-3">Vous recommandez Growth</p>
               <p style={{ fontWeight: 400 }} className="text-[14px] w-[226px] leading-[24px] text-[var(--color-neutral-text)]">
                 Partagez votre lien d'affiliation à votre audience, vos clients ou votre réseau.
               </p>
@@ -128,7 +128,7 @@ export function AffiliationSection() {
             {/* Header */}
 
             {/* Content */}
-            <div className="space-y-4 lg:h-[247px] h-[300px] bg-[var(--color-bg-head)] border  border-[var(--color-border-head)] rounded-2xl pb-23 p-4">
+            <div className="space-y-4 lg:h-[239px] h-[300px] bg-[var(--color-bg-head)] border  border-[var(--color-border-head)] rounded-2xl p-4">
               <div className="rounded-2xl mx-auto w-[130px] lg:w-[230px] border border-[var(--color-border)] bg-white px-4 py-3 flex items-center gap-3">
                 <div className="w-10 h-10 rounded-full bg-[#BBFFCC] flex items-center justify-center text-[#008A4B] text-xl font-bold">$</div>
                 <div>
@@ -143,9 +143,9 @@ export function AffiliationSection() {
             </div>
 
             {/* Bottom Content */}
-            <div className="pt-7">
-              <h3 className="text-4xl font-black text-[var(--color-neutral-text)] mb-4">03</h3>
-              <p className="text-[24px] font-semibold text-[var(--color-text)] mb-3">Vous gagnez</p>
+            <div className="mt-[31px]">
+              <h3 className="text-4xl font-black text-[var(--color-neutral-text)]">03</h3>
+              <p className="text-[24px] font-semibold text-[var(--color-text)] mt-[12px] mb-3">Vous gagnez</p>
               <p style={{ fontWeight: 400 }} className="text-[14px] w-[242px] leading-[24px] text-[var(--color-neutral-text)]">
                 Vous touchez une commission récurrente ou par conversion (selon l'offre)
               </p>
@@ -155,7 +155,7 @@ export function AffiliationSection() {
 
         {/* CTA Button */}
         <div className="text-center mx-auto mt-[80px] lg:w-[417px]">
-          <button className="px-8 justify-center text-center h-[50px] rounded-[16px] bg-[var(--color-primary)] text-white font-bold shadow transition hover:brightness-110">
+          <button className="px-8 justify-center text-center h-[50px] rounded-[16px] bg-[var(--color-primary)] text-white font-bold transition hover:brightness-110">
             Découvrir le programme d'affiliation →
           </button>
         </div>

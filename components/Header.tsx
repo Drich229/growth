@@ -10,7 +10,7 @@ export function Header() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <header className="w-full max-w-[100vw] overflow-x-hidden border-b border-[var(--color-border)] bg-[var(--color-bg)] fixed top-0 left-0 right-0 z-50">
+    <header className="w-full max-w-[100vw] border-b border-[var(--color-border)] bg-[var(--color-bg)] fixed top-0 left-0 right-0 z-50">
       <nav className="relative h-[68px] w-full px-4 lg:px-6 py-4 flex items-center justify-between">
         <div className="text-[20px] leading-[20px] font-bold lg:absolute lg:left-[100px] text-[var(--color-text)]">GROWTH</div>
 

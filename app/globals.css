@@ -17,7 +17,7 @@ body {
   --color-bg-secondary: #ffffff;
   --color-text: #000000;
   --color-text-light: #666666;
-  --color-border: #e0e0e0;
+  --color-border: #f0efef;
   --color-border-aff: #e0e0e0;
   --color-inpu-bg: #ffffff;
   --color-card-bg: #ffffff;
@@ -53,11 +53,13 @@ body {
   --color-bg-head: #FFFFFF;
   --color-border-head: #BDC1CAFF;
   --color-bg-card-feat: #FFFFFF;
-  --color-bg-sol: #FFFFFF
+  --color-bg-sol: #FFFFFF;
+  --color-bg-feat: #F8F9FAFF;
 }
 
 /* Dark mode */
 html.dark {
+  --color-bg-feat: #18181BFF;
   --color-text-footer: #A1A1AAFF;
   --color-bg-card-feat: #27272AFF;
   --color-border-head: #3F3F46FF;
