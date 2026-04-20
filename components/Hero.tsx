@@ -4,11 +4,11 @@ export function Hero() {
   return (
     <section className="relative z-0 max-w-7xl lg:w-[1217px] bg-[var(--color-bg-secondary)] mx-auto px-6 mt-[160px] pb-10 text-center">
       <div
-        className="absolute top-[10px] left-1/2 -translate-x-1/2 w-[700px] h-[80px] -z-10 pointer-events-none opacity-40"
+        className="absolute top-[-160px] left-1/2 -translate-x-1/2 w-[800px] h-[300px] -z-10 pointer-events-none opacity-20"
         style={{
           background: 'linear-gradient(180deg, #FF8A00FF 96%, #FF8A00FF 99%)',
           borderRadius: '423px',
-          filter: 'blur(40px)'
+          filter: 'blur(80px)'
         }}
       />
       <h1 className="text-4xl leading-tight lg:text-[60px] lg:leading-[72px] lg:w-[1093px] w-full mx-auto font-bold mb-7 relative z-10">
