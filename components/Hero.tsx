@@ -8,7 +8,7 @@ export function Hero() {
         style={{
           background: 'linear-gradient(180deg, #FF8A00FF 96%, #FF8A00FF 99%)',
           borderRadius: '423px',
-          filter: 'blur(400px)'
+          filter: 'blur(350px)'
         }}
       />
       <h1 className="text-4xl leading-tight lg:text-[60px] lg:leading-[72px] lg:w-[1093px] w-full mx-auto font-bold mb-7 relative z-10">
