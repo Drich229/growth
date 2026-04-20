@@ -29,7 +29,7 @@ export function Header() {
             Contact
           </Link>
         </div>
-        <div className="hidden lg:flex lg:top-[14px] lg:left-[793px] lg:absolute"><LanguageSelector /></div>
+        <div className="hidden lg:flex lg:top-[14px] lg:left-[793px] lg:mr-[31px] lg:absolute"><LanguageSelector /></div>
         <div className="hidden lg:flex lg:top-[14px] lg:left-[943px] lg:absolute items-center gap-2">
           <button style={{ fontWeight: 400 }} className="flex items-center justify-center gap-[6px] w-[247px] h-[40px] px-[12px] text-[14px] leading-[22px] text-white bg-[var(--color-primary)] border-none rounded-[12px] shadow-[0px_0px_1px_#171a1f12,_0px_0px_2px_#171a1f1F] hover:bg-[#E47A00] hover:text-white active:bg-[#C96B00] active:text-white disabled:opacity-40 transition-colors">
             Découvrir nos offres →
