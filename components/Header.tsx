@@ -12,10 +12,10 @@ export function Header() {
   return (
     <header className="max-w-[100vw] border-b border-[var(--color-border)] bg-[var(--color-bg)] fixed top-0 left-0 right-0 z-50">
       <nav className="relative h-[68px] px-4 lg:px-6 py-4 flex items-center justify-between">
-        <div className="text-[20px] leading-[20px] font-bold lg:absolute lg:left-[132px] top-[24px] text-[var(--color-text)]">GROWTH</div>
+        <div className="text-[20px] leading-[20px] font-bold lg:absolute lg:left-[112px] top-[24px] text-[var(--color-text)]">GROWTH</div>
 
         {/* Desktop Menu */}
-        <div className="hidden lg:flex lg:absolute lg:top-[21px] lg:left-[373px] lg:w-[383px] lg:h-[26px] items-center text-[14px] leading-[22px] opacity-100">
+        <div className="hidden lg:flex lg:absolute lg:top-[21px] lg:left-[353px] lg:w-[383px] lg:h-[26px] items-center text-[14px] leading-[22px] opacity-100">
           <Link href="#" style={{ fontWeight: 400 }} className="flex items-center justify-center whitespace-nowrap bg-transparent rounded-none py-[2px] px-[15px] text-[14px] leading-[22px] text-[var(--color-neutral-text)] dark:text-[var(--color-text)] hover:text-[var(--color-primary)] hover:font-bold transition-all">
             Accueil
           </Link>
@@ -29,8 +29,8 @@ export function Header() {
             Contact
           </Link>
         </div>
-        <div className="hidden lg:flex lg:top-[14px] lg:left-[843px] lg:absolute"><LanguageSelector /></div>
-        <div className="hidden lg:flex lg:top-[14px] lg:left-[1023px] lg:absolute items-center gap-2">
+        <div className="hidden lg:flex lg:top-[14px] lg:left-[823px] lg:absolute"><LanguageSelector /></div>
+        <div className="hidden lg:flex lg:top-[14px] lg:left-[1003px] lg:absolute items-center gap-2">
           <button style={{ fontWeight: 400 }} className="flex items-center justify-center gap-[6px] w-[247px] h-[40px] px-[12px] text-[14px] leading-[22px] text-white bg-[var(--color-primary)] border-none rounded-[12px] shadow-[0px_0px_1px_#171a1f12,_0px_0px_2px_#171a1f1F] hover:bg-[#E47A00] hover:text-white active:bg-[#C96B00] active:text-white disabled:opacity-40 transition-colors">
             Découvrir nos offres →
           </button>
