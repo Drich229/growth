@@ -11,7 +11,7 @@ export function WorkflowSection() {
             <h2 style={{
               fontSize: '48px',
               lineHeight: '62px',
-            }} className="lg:w-[728px] font-bold text-[var(--color-text)]">
+            }} className="lg:w-[728px] font-bold text-[var(--color-neutral-text)]">
               Comment Growth s’adapte à votre façon de travailler
             </h2>
           </div>
@@ -20,7 +20,7 @@ export function WorkflowSection() {
               fontSize: '20px',
               fontWeight: 500,
               lineHeight: '29px',
-            }} className="lg:ml-10 lg:h-[58px] mt-4 lg:w-[661px] md:text-xl text-[var(--color-text)] ">
+            }} className="lg:ml-10 lg:h-[58px] mt-4 lg:w-[661px] md:text-xl text-[var(--color-neutral-text)] ">
               Chez Growth, vous choisissez votre niveau d’implication. Gérez tout vous-même ou déléguez l’exécution à notre équipe.
             </p>
           </div>
