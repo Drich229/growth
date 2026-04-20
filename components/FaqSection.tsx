@@ -32,7 +32,7 @@ export function FaqSection() {
       <div className="max-w-7xl mx-auto px-6">
         <div className="text-center mb-10">
           <h2 className="lg:text-[48px] text-2xl lg:w-[1172px] lg:ml-5 font-bold text-[var(--color-text-faqtitle)]">Questions fréquemment posées</h2>
-          <p style={{ fontWeight: 400 }} className="mt-2 text-lg text-[var(--color-text-light)]">Tout ce que vous devez savoir pour démarrer sereinement.</p>
+          <p style={{ fontWeight: 400 }} className="mt-2 text-lg text-[var(--color-text-faqsub)]">Tout ce que vous devez savoir pour démarrer sereinement.</p>
         </div>
 
         <div className="space-y-4">
