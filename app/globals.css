@@ -16,6 +16,7 @@ body {
   --color-border-feat: #E5E5E5FF;
   --color-bg-secondary: #ffffff;
   --color-text: #000000;
+  --color-text-faqsub: #55616DFF;
   --color-text-light: #666666;
   --color-border: #EEEEEE;
   --color-border-aff: #e0e0e0;
@@ -55,11 +56,16 @@ body {
   --color-bg-card-feat: #FFFFFF;
   --color-bg-sol: #FFFFFF;
   --color-text-faq: #11181CFF;
+  --color-text-faqtitle: #11181CFF;
   --color-bg-feat: #F8F9FAFF;
+  --color-text-work: #171A1FFF;
 }
 
 /* Dark mode */
 html.dark {
+  --color-text-faqsub: #A1A1AAFF;
+  --color-text-faqtitle: #FFFFFF;
+  --color-text-work: #A1A1AAFF;
   --color-text-faq: #E4E4E7FF;
   --color-bg-feat: #18181BFF;
   --color-text-footer: #A1A1AAFF;

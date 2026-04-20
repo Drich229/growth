@@ -46,7 +46,7 @@ export function AffiliationSection() {
           <h2 className="lg:text-[48px] text-[30px] font-bold text-[var(--color-neutral-text)] mb-4">
             Recommandez Growth.<br />Gagnez à chaque client apporté.
           </h2>
-          <p style={{ fontWeight: 500 }} className="text-[20px] text-[var(--color-neutral-text)] max-w-2xl mx-auto">
+          <p style={{ fontWeight: 500 }} className="text-[20px] text-[var(--color-text-work)] max-w-2xl mx-auto">
             Un programme simple et transparent pour les créateurs, agences et entrepreneurs qui parlent croissance.
           </p>
         </div>
