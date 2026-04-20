@@ -6,7 +6,7 @@ export function Hero() {
       <div
         className="absolute top-[-50px] left-1/2 -translate-x-1/2 w-[800px] h-[300px] -z-10 pointer-events-none opacity-20"
         style={{
-          background: 'linear-gradient(180deg, #FF8A00FF 56%, #FF8A00FF 59%)',
+          background: 'linear-gradient(180deg, #FF8A00FF 96%, #FF8A00FF 99%)',
           borderRadius: '423px',
           filter: 'blur(40px)'
         }}
