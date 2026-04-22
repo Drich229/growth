@@ -27,6 +27,8 @@ export const metadata: Metadata = {
   description: "Growth - Accélérateur de croissance pour entreprises",
 };
 
+import { ThemeProvider } from '@/components/ThemeProvider';
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -36,8 +38,28 @@ export default function RootLayout({
     <html
       lang="en"
       className={`${sora.variable} h-full antialiased`}
+      suppressHydrationWarning
     >
-      <body className="min-h-full flex flex-col">{children}</body>
+      <head>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              try {
+                if (localStorage.getItem('theme') === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+                  document.documentElement.classList.add('dark');
+                } else {
+                  document.documentElement.classList.remove('dark');
+                }
+              } catch (_) {}
+            `,
+          }}
+        />
+      </head>
+      <body className="min-h-full flex flex-col">
+        <ThemeProvider>
+          {children}
+        </ThemeProvider>
+      </body>
     </html>
   );
 }
